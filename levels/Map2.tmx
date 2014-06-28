@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiletemplate" tilewidth="32" tileheight="32">
+  <image source="tiletemplate.png" width="544" height="160"/>
+  <tile id="71">
+   <properties>
+    <property name="hot" value="2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztl8EOgjAMhqs+gGaYLBw8oHj0qMZ48G68qLz/s9jGLWkKU9iGQrI/+cOAlvQbhUEGABlao8uOzk1uTOvA6y+huy49MPE61I84mpg4j2441qWOjcmV90j2Tu7ID9Ed/UA/0RVjbMsi6yCW7Yd9Et03yybPxVZbFp/5VJ55vuLz5mIaAwf1XCXG8lkeA0eTZL/xelboqcNrFjcEDpJ9NxzRV/Te+AbutYviDiZ/KBxWKiAvccRX4kgcfShxAJzgva7M4pXjrRCO2N+7IbIcO/TCETOB+tp+hmFy0LZAz6HO8+3fyvbXP63Y2NZViBg+99wvTjocSg==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1"/>
+</map>

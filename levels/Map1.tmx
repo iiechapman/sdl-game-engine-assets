@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiletemplate" tilewidth="32" tileheight="32">
+  <image source="tiletemplate.png" width="544" height="160"/>
+  <tile id="71">
+   <properties>
+    <property name="hot" value="2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="86" name="Objects" tilewidth="32" tileheight="32">
+  <image source="../assets/sprites/chars/ash_run.png" width="160" height="32"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzFl8FuwjAMhg2T0C4wVIq6HTapg+0J2KSJA/eKy0bf/1lmq4mwrLhNkzT9pV+l0Dj+EqcJOwDYoSv0Ef2sXF1+MW1TuoqMX0KnvXJ16WLapmQqWfwiE4dkkjyV47sxHAfTVs4Rv5fxYzmsftF/6Bu6ZYy+LKWIRywfPfekgjHZ3z6Va6x8WSSHj4pEOY7pb6jWQjgOqRL0FNVcKz7LtRzCQVqiv3r8HZy1n2S9cY5Xk5/L7yKOL/8JpmOy7waqtwbuY3gFfe9qWD4LCJ/HE+SbsyFRbYZy9GnKuXNpKo7cSsVB63EF89VXCg5iOCeIE6MxHNq6pj2InwfmkMZhc577PeQr4viBbl95mDmXGPEzQe76pnUlx47q4BH9hN4q7WjPk3s7rc9cHGv0hvX9pvRpx7YGN8/QfytbX1P5rPTJz0kLx3O1RxzyPxU4I8w=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1">
+  <object name="Player_Spawn" type="Player" gid="90" x="190" y="479">
+   <properties>
+    <property name="animSpeed" value="10"/>
+    <property name="numFrames" value="5"/>
+    <property name="textureHeight" value=""/>
+    <property name="textureID" value="player"/>
+    <property name="textureWidth" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiletemplate" tilewidth="32" tileheight="32">
+  <image source="tiletemplate.png" width="544" height="160"/>
+  <tile id="71">
+   <properties>
+    <property name="hot" value="2"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzVl8tuwjAQRSdUqrqBVklQyqKVKKXqB1AkxIJ91A2U//+WziixGA2e4MSPiCtdmUD8OPaMbQoAKNAV+hP9qpQ2L9q6IV15tl9Co7lS2nRo64ZkKln7eSIOySR5Kst3fThWbV25RvxZtu/LYXREn9B/6DNjdGUpRXvEsu54JuWMzfz2pZS+cmWRHC7KB9YbKj5vGtM9cFDMncVnmctDOb7RPx3e+gzcQTLeOMcbeqL4g73XZz02EI/J7A0UbzVc5vAX9LOrZuPxiasNpFuzW4qVHzHXzqbUeR5LoTgoHx9hvPgKwUEM+wDt+KjvfmXLa7on8PvAGNI4zJjH3odcRRw7aM6Vh5HH4iN+J0gd35RXcu4oDp7Qz+gXpV4G12c75Wcqjil6xvp+V/o0c7sEO8+t/1YmvmJ5r/TJ70mZ5b2lQzvkf/I9JDE=
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1"/>
+</map>
