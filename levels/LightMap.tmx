@@ -7,7 +7,12 @@
   <property name="player" value="assets/sprites/chars/ash_run.png"/>
  </properties>
  <tileset firstgid="1" name="tiletemplate" tilewidth="32" tileheight="32">
-  <image source="tiletemplate.png" width="544" height="160"/>
+  <image source="../assets/tiles/tiletemplate.png" width="544" height="160"/>
+  <tile id="37">
+   <properties>
+    <property name="blendmode" value="blend"/>
+   </properties>
+  </tile>
   <tile id="71">
    <properties>
     <property name="hot" value="2"/>
@@ -31,7 +36,7 @@
    eJzVl8kKAjEMhjMK4sWFUREPCq5PoIKIeBcvLu//LCbYYInt2NpF/OFnFrt9bdKpBQDUlDcVV5NH6F5kD9ELZdf2++hSuycNLFeTjqquT58uY2KVHnVCOCST5Bka3vlwzFVduUbyOSYH64K+om/ou8boEyO6iGVZ8VyqOnPFxb+tLNdQubJIjk9ijpyiPjkmeNwLi10l1yeHKObuhvsYKqB6b91G7MtXY3h9E6RnoqxrfK0hHROtzQHe5/AM9rg7qfHQOtTh+zxZg9+acfnYc8HjT5HvKddOKiVHTsXkoHxswG/2hFgcxLAPbCNEvhy2vJbngdyq4ki1t6SQzrGD5x78j9I5vjmfhYrySs4dxUET3UF3LfX4/MHm3MzF0UK3tf4nlj55PFMw85j+W/XFe9tZJob3hv4pnvVzUmEoN3Vohzgeb+slJw==
   </data>
  </layer>
- <objectgroup name="object layer" width="0" height="0">
+ <objectgroup color="#ffffff" name="object layer">
   <object name="player" type="Player" gid="86" x="160" y="224">
    <properties>
     <property name="alpha" value="255"/>
@@ -45,7 +50,7 @@
   </object>
   <object name="darkness" type="Player" gid="92" x="-24" y="700">
    <properties>
-    <property name="alpha" value="170"/>
+    <property name="alpha" value="255"/>
     <property name="blendMode" value="blend"/>
     <property name="blue" value="255"/>
     <property name="green" value="255"/>
@@ -56,8 +61,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="light layer" width="50" height="20">
-  <object name="light" type="Player" gid="91" x="473" y="196">
+ <objectgroup name="light layer">
+  <object name="light" type="Player" gid="91" x="320" y="277">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="add"/>
@@ -69,7 +74,7 @@
     <property name="textureWidth" value="500"/>
    </properties>
   </object>
-  <object name="light" type="Player" gid="91" x="82" y="165">
+  <object name="light" type="Player" gid="91" x="-26" y="230">
    <properties>
     <property name="alpha" value="100"/>
     <property name="blendMode" value="add"/>
@@ -105,9 +110,9 @@
     <property name="textureWidth" value="200"/>
    </properties>
   </object>
-  <object name="light" type="Player" gid="91" x="410" y="404">
+  <object name="light" type="Player" gid="91" x="175" y="317">
    <properties>
-    <property name="alpha" value="50"/>
+    <property name="alpha" value="100"/>
     <property name="blendMode" value="add"/>
     <property name="blue" value="255"/>
     <property name="green" value="255"/>
@@ -117,9 +122,9 @@
     <property name="textureWidth" value="195"/>
    </properties>
   </object>
-  <object name="light" type="Player" gid="91" x="102" y="307">
+  <object name="light" type="Player" gid="91" x="337" y="213">
    <properties>
-    <property name="alpha" value="100"/>
+    <property name="alpha" value="255"/>
     <property name="blendMode" value="add"/>
     <property name="blue" value="20"/>
     <property name="green" value="255"/>
