@@ -8,7 +8,12 @@
   <property name="player_light" value="assets/tiles/playerlight.png"/>
  </properties>
  <tileset firstgid="1" name="tiletemplate" tilewidth="32" tileheight="32">
-  <image source="tiletemplate.png" width="544" height="160"/>
+  <image source="../assets/tiles/tiletemplate.png" width="544" height="160"/>
+  <tile id="37">
+   <properties>
+    <property name="blendmode" value="blend"/>
+   </properties>
+  </tile>
   <tile id="71">
    <properties>
     <property name="hot" value="2"/>
@@ -37,7 +42,11 @@
    eJzVl8kKAjEMhjMK4sWFUREPCq5PoIKIeBcvLu//LCbYYInt2NpF/OFnFrt9bdKpBQDUlDcVV5NH6F5kD9ELZdf2++hSuycNLFeTjqquT58uY2KVHnVCOCST5Bka3vlwzFVduUbyOSYH64K+om/ou8boEyO6iGVZ8VyqOnPFxb+tLNdQubJIjk9ijpyiPjkmeNwLi10l1yeHKObuhvsYKqB6b91G7MtXY3h9E6RnoqxrfK0hHROtzQHe5/AM9rg7qfHQOtTh+zxZg9+acfnYc8HjT5HvKddOKiVHTsXkoHxswG/2hFgcxLAPbCNEvhy2vJbngdyq4ki1t6SQzrGD5x78j9I5vjmfhYrySs4dxUET3UF3LfX4/MHm3MzF0UK3tf4nlj55PFMw85j+W/XFe9tZJob3hv4pnvVzUmEoN3Vohzgeb+slJw==
   </data>
  </layer>
+<<<<<<< HEAD
  <objectgroup name="player" width="0" height="0">
+=======
+ <objectgroup color="#ffffff" name="object layer">
+>>>>>>> d71671930af599cf4268a5ef9a17b87e2db08156
   <object name="player" type="Player" gid="86" x="160" y="224">
    <properties>
     <property name="alpha" value="255"/>
@@ -52,9 +61,27 @@
     <property name="textureWidth" value="32"/>
    </properties>
   </object>
+<<<<<<< HEAD
  </objectgroup>
  <objectgroup name="light" width="50" height="20">
   <object name="light" type="Light" gid="91" x="500" y="350">
+=======
+  <object name="darkness" type="Player" gid="92" x="-24" y="700">
+   <properties>
+    <property name="alpha" value="255"/>
+    <property name="blendMode" value="blend"/>
+    <property name="blue" value="255"/>
+    <property name="green" value="255"/>
+    <property name="red" value="255"/>
+    <property name="textureHeight" value="2000"/>
+    <property name="textureID" value="darkness"/>
+    <property name="textureWidth" value="2000"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="light layer">
+  <object name="light" type="Player" gid="91" x="320" y="277">
+>>>>>>> d71671930af599cf4268a5ef9a17b87e2db08156
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="blend"/>
@@ -66,7 +93,11 @@
     <property name="textureWidth" value="500"/>
    </properties>
   </object>
+<<<<<<< HEAD
   <object name="light" type="Light" gid="91" x="277" y="577">
+=======
+  <object name="light" type="Player" gid="91" x="-26" y="230">
+>>>>>>> d71671930af599cf4268a5ef9a17b87e2db08156
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="blend"/>
@@ -102,10 +133,17 @@
     <property name="textureWidth" value="200"/>
    </properties>
   </object>
+<<<<<<< HEAD
   <object name="light" type="Light" gid="91" x="58" y="85">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="blend"/>
+=======
+  <object name="light" type="Player" gid="91" x="175" y="317">
+   <properties>
+    <property name="alpha" value="100"/>
+    <property name="blendMode" value="add"/>
+>>>>>>> d71671930af599cf4268a5ef9a17b87e2db08156
     <property name="blue" value="255"/>
     <property name="green" value="255"/>
     <property name="red" value="255"/>
@@ -114,10 +152,17 @@
     <property name="textureWidth" value="195"/>
    </properties>
   </object>
+<<<<<<< HEAD
   <object name="light" type="Light" gid="91" x="79" y="582">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="blend"/>
+=======
+  <object name="light" type="Player" gid="91" x="337" y="213">
+   <properties>
+    <property name="alpha" value="255"/>
+    <property name="blendMode" value="add"/>
+>>>>>>> d71671930af599cf4268a5ef9a17b87e2db08156
     <property name="blue" value="20"/>
     <property name="green" value="255"/>
     <property name="red" value="20"/>
