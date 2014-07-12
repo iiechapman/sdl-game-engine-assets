@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Map Properties -->
 <map version="1.0" orientation="orthogonal" width="50" height="20" tilewidth="32" tileheight="32">
  <properties>
   <property name="darkness" value="assets/tiles/darkness.png"/>
   <property name="invertedlight" value="assets/tiles/light2.png"/>
   <property name="light" value="assets/tiles/light.png"/>
-  <property name="player" value="assets/sprites/chars/ash_run.png"/>
+  <property name="player" value="assets/sprites/chars/walk.png"/>
   <property name="player_light" value="assets/tiles/playerlight.png"/>
  </properties>
-
- <!-- Tilesets -->
  <tileset firstgid="1" name="tiletemplate" tilewidth="32" tileheight="32">
   <image source="../assets/tiles/tiletemplate.png" width="544" height="160"/>
   <tile id="37">
    <properties>
     <property name="blendmode" value="blend"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="hot" value="2"/>
    </properties>
   </tile>
  </tileset>
@@ -24,14 +26,9 @@
  <tileset firstgid="91" name="lights" tilewidth="195" tileheight="195">
   <image source="../assets/tiles/light.png" width="195" height="195"/>
  </tileset>
- <tileset firstgid="92" name="darkness" tilewidth="640" tileheight="480">
-  <image source="../assets/tiles/darkness.png" width="800" height="600"/>
+ <tileset firstgid="92" name="player_walk" tilewidth="32" tileheight="32">
+  <image source="../assets/sprites/chars/walk.png" width="128" height="32"/>
  </tileset>
- <tileset firstgid="93" name="invertedlight" tilewidth="195" tileheight="195">
-  <image source="../assets/tiles/light2.png" width="195" height="195"/>
- </tileset>
-
- <!-- Tile Layerss -->
  <layer name="BG Layer" width="50" height="20">
   <properties>
    <property name="collidable" value="false"/>
@@ -40,33 +37,23 @@
    eJztw0ENAAAMA6HzUP9eJ2MfSFg1VVVV9fUBm4xKOQ==
   </data>
  </layer>
- <layer name="collision layer" width="50" height="20">
+ <layer name="FG Layer" width="50" height="20">
   <properties>
    <property name="collidable" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztz0ENAAAIxDCCf9F8MAHXJhOwKiBdb9d9+QAAINMAaTAACQ==
+   eJzVl9tqAjEQhmcVSm+0sirSCwvqtk+wFkTEe+lN233/Z+kMZmiYTrbJ5iD+8LMHc/qSmWysAGBkvO+5an5GzxN7hW6MfdtfoGvrnrR0XDWdB/TpMyZWHVAnhkNjsnlWyrsQjp2pK9dIPqfkYH2iv9Df6M5iDIkRW8Ty2vNcmzo7w8W/vTmusfJlkRz/iTlKivrkmOBxNw77Sq5PCVHMdcp9ClXQv7e+J+wrVGv4/SZIb0VZ3/hqIR8Trc0J/s7hB7jj7mLGQ+swhuF50kLYmnH51HPB48+R7znXTionR0ml5KB8fIDb7AmpOIjhGNlGjEI5XHktzwOl1ceRa2/JIZvjANc9+B5lcww5n8WK8krOHcXBI/oJPXPU4/MHm3OzFMcEPbX6f3H0yePZgM6j/bdaiPeus0wKH5X+KZ7tc1KllNt4tEMcP2gSJTg=
   </data>
  </layer>
- <layer name="fg layer" width="50" height="20">
-  <properties>
-   <property name="collidable" value="false"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJzVl8kKAjEMhjMK4sWFUREPCq5PoIKIeBcvLu//LCbYYInt2NpF/OFnFrt9bdKpBQDUlDcVV5NH6F5kD9ELZdf2++hSuycNLFeTjqquT58uY2KVHnVCOCST5Bka3vlwzFVduUbyOSYH64K+om/ou8boEyO6iGVZ8VyqOnPFxb+tLNdQubJIjk9ijpyiPjkmeNwLi10l1yeHKObuhvsYKqB6b91G7MtXY3h9E6RnoqxrfK0hHROtzQHe5/AM9rg7qfHQOtTh+zxZg9+acfnYc8HjT5HvKddOKiVHTsXkoHxswG/2hFgcxLAPbCNEvhy2vJbngdyq4ki1t6SQzrGD5x78j9I5vjmfhYrySs4dxUET3UF3LfX4/MHm3MzF0UK3tf4nlj55PFMw85j+W/XFe9tZJob3hv4pnvVzUmEoN3Vohzgeb+slJw==
-  </data>
- </layer>
-
- <!-- Object layers-->
- <objectgroup name="player" width="0" height="0">
-  <object name="player" type="Player" gid="86" x="75" y="358">
+ <objectgroup name="Player" width="0" height="0">
+  <object name="player" type="Player" gid="92" x="89" y="221">
    <properties>
     <property name="alpha" value="255"/>
     <property name="animSpeed" value="10"/>
     <property name="blendMode" value="blend"/>
     <property name="blue" value="255"/>
     <property name="green" value="255"/>
-    <property name="numFrames" value="5"/>
+    <property name="numFrames" value="4"/>
     <property name="red" value="255"/>
     <property name="textureHeight" value="32"/>
     <property name="textureID" value="player"/>
@@ -75,76 +62,101 @@
   </object>
  </objectgroup>
  <objectgroup name="light" width="50" height="20">
-  <object name="light" type="Light" gid="91" x="279" y="176">
+  <object name="purple" type="Light" gid="91" x="105" y="198">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="add"/>
     <property name="blue" value="255"/>
     <property name="green" value="30"/>
     <property name="red" value="255"/>
-    <property name="textureHeight" value="300"/>
+    <property name="textureHeight" value="195"/>
     <property name="textureID" value="light"/>
-    <property name="textureWidth" value="300"/>
+    <property name="textureWidth" value="195"/>
    </properties>
   </object>
-  <object name="light" type="Light" gid="91" x="328" y="617">
+  <object name="standard" type="Light" gid="91" x="162" y="297">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="add"/>
     <property name="blue" value="255"/>
     <property name="green" value="255"/>
     <property name="red" value="255"/>
-    <property name="textureHeight" value="400"/>
+    <property name="textureHeight" value="195"/>
     <property name="textureID" value="light"/>
-    <property name="textureWidth" value="400"/>
+    <property name="textureWidth" value="195"/>
    </properties>
   </object>
-  <object name="light" type="Light" gid="91" x="232" y="355">
+  <object name="red" type="Light" gid="91" x="55" y="470">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="add"/>
     <property name="blue" value="0"/>
     <property name="green" value="0"/>
     <property name="red" value="255"/>
-    <property name="textureHeight" value="460"/>
+    <property name="textureHeight" value="195"/>
     <property name="textureID" value="light"/>
-    <property name="textureWidth" value="200"/>
+    <property name="textureWidth" value="195"/>
    </properties>
   </object>
-  <object name="player_light" type="Light" gid="91" x="31" y="511">
+  <object name="player_light" type="Light" gid="91" x="-16" y="291">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="add"/>
     <property name="blue" value="255"/>
     <property name="green" value="255"/>
+    <property name="lockTo" value="player"/>
     <property name="red" value="255"/>
-    <property name="textureHeight" value="300"/>
-    <property name="textureID" value="player_light"/>
-    <property name="textureWidth" value="300"/>
+    <property name="textureHeight" value="195"/>
+    <property name="textureID" value="light"/>
+    <property name="textureWidth" value="195"/>
    </properties>
   </object>
-  <object name="light" type="Light" gid="91" x="359" y="284">
+  <object name="green" type="Light" gid="91" x="345" y="432">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="add"/>
     <property name="blue" value="20"/>
     <property name="green" value="255"/>
     <property name="red" value="30"/>
-    <property name="textureHeight" value="300"/>
+    <property name="textureHeight" value="195"/>
     <property name="textureID" value="light"/>
-    <property name="textureWidth" value="300"/>
+    <property name="textureWidth" value="195"/>
    </properties>
   </object>
-  <object name="light" type="Light" gid="91" x="-30" y="290">
+  <object name="amber" type="Light" gid="91" x="250" y="205">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="add"/>
     <property name="blue" value="100"/>
     <property name="green" value="200"/>
     <property name="red" value="250"/>
-    <property name="textureHeight" value="400"/>
+    <property name="textureHeight" value="195"/>
     <property name="textureID" value="light"/>
-    <property name="textureWidth" value="400"/>
+    <property name="textureWidth" value="195"/>
+   </properties>
+  </object>
+  <object name="standard" type="Light" gid="91" x="279" y="300">
+   <properties>
+    <property name="alpha" value="255"/>
+    <property name="blendMode" value="add"/>
+    <property name="blue" value="255"/>
+    <property name="green" value="255"/>
+    <property name="red" value="255"/>
+    <property name="textureHeight" value="195"/>
+    <property name="textureID" value="light"/>
+    <property name="textureWidth" value="195"/>
+   </properties>
+  </object>
+  <object name="standard" type="Light" gid="91" x="403" y="324">
+   <properties>
+    <property name="alpha" value="255"/>
+    <property name="blendMode" value="add"/>
+    <property name="blue" value="255"/>
+    <property name="green" value="255"/>
+    <property name="red" value="255"/>
+    <property name="textureHeight" value="195"/>
+    <property name="textureID" value="light"/>
+    <property name="textureWidth" value="195"/>
    </properties>
   </object>
  </objectgroup>
