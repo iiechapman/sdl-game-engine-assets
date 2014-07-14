@@ -106,9 +106,9 @@
     <property name="green" value="255"/>
     <property name="lockTo" value="player"/>
     <property name="red" value="255"/>
-    <property name="textureHeight" value="195"/>
+    <property name="textureHeight" value="300"/>
     <property name="textureID" value="light"/>
-    <property name="textureWidth" value="195"/>
+    <property name="textureWidth" value="300"/>
    </properties>
   </object>
   <object name="green" type="Light" gid="91" x="345" y="432">
@@ -157,6 +157,54 @@
     <property name="textureHeight" value="195"/>
     <property name="textureID" value="light"/>
     <property name="textureWidth" value="195"/>
+   </properties>
+  </object>
+  <object name="standard" type="Light" gid="91" x="608" y="420">
+   <properties>
+    <property name="alpha" value="255"/>
+    <property name="blendMode" value="add"/>
+    <property name="blue" value="255"/>
+    <property name="green" value="255"/>
+    <property name="red" value="255"/>
+    <property name="textureHeight" value="195"/>
+    <property name="textureID" value="light"/>
+    <property name="textureWidth" value="195"/>
+   </properties>
+  </object>
+  <object name="standard" type="Light" gid="91" x="641" y="525">
+   <properties>
+    <property name="alpha" value="255"/>
+    <property name="blendMode" value="add"/>
+    <property name="blue" value="255"/>
+    <property name="green" value="255"/>
+    <property name="red" value="255"/>
+    <property name="textureHeight" value="500"/>
+    <property name="textureID" value="light"/>
+    <property name="textureWidth" value="500"/>
+   </properties>
+  </object>
+  <object name="standard" type="Light" gid="91" x="1093" y="362">
+   <properties>
+    <property name="alpha" value="255"/>
+    <property name="blendMode" value="add"/>
+    <property name="blue" value="255"/>
+    <property name="green" value="255"/>
+    <property name="red" value="255"/>
+    <property name="textureHeight" value="195"/>
+    <property name="textureID" value="light"/>
+    <property name="textureWidth" value="195"/>
+   </properties>
+  </object>
+  <object name="standard" type="Light" gid="91" x="1165" y="400">
+   <properties>
+    <property name="alpha" value="255"/>
+    <property name="blendMode" value="add"/>
+    <property name="blue" value="255"/>
+    <property name="green" value="255"/>
+    <property name="red" value="255"/>
+    <property name="textureHeight" value="500"/>
+    <property name="textureID" value="light"/>
+    <property name="textureWidth" value="500"/>
    </properties>
   </object>
  </objectgroup>
