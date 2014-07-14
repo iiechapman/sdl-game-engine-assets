@@ -14,11 +14,6 @@
     <property name="blendmode" value="blend"/>
    </properties>
   </tile>
-  <tile id="71">
-   <properties>
-    <property name="hot" value="2"/>
-   </properties>
-  </tile>
  </tileset>
  <tileset firstgid="86" name="Objects" tilewidth="32" tileheight="32">
   <image source="../assets/sprites/chars/ash_run.png" width="160" height="32"/>
@@ -29,7 +24,7 @@
  <tileset firstgid="92" name="player_walk" tilewidth="32" tileheight="32">
   <image source="../assets/sprites/chars/walk.png" width="128" height="32"/>
  </tileset>
- <layer name="BG Layer" width="50" height="20">
+ <layer name="BG Layer" width="50" height="20" visible="0">
   <properties>
    <property name="collidable" value="false"/>
   </properties>
@@ -42,11 +37,11 @@
    <property name="collidable" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzFl8mKAjEQhqtHEC+j0jqIBwW3eYJRGDx4Fy8u7/8sVkEHi+pKzNr+8NOLnVR96eokVgDw1XjvOGqeoyeZPUNvG/v2P0XX7Jz0YzlqOkXE9MnJqA5ok8KhMXGemXIvhGPTtJXvyFyX4DC6om/oO/rBGENqhItYdpZrnnvdsJnffi3HVPmySA6XOEfoeKeI4sqa2ArvrK31/j7BQTX3UM5jJevKNbceEmOlaAGvNUF6DW0On5r8g/JMFIOP4QXadWd8hjgOV0wfPvN8zrHIweFSF++OVJqjK+XmoO+xD93PCTk5iOGY2EesYucr7bumfULo+pVL7zhKzC0lJDn+0b2PZhQnyRG6P8uhCtpjR3UwQI/QY0c7s6a79u2l9I0eshyWlpgmnxXoPNp/q6m4b9vL5PBRiU/1vGY5VspzK49+iOMJoRglhg==
+   eJztl8FuwjAMhl3YgQvb1IEQh02CwZ5gQ0I77D5xgfH+zzJbqoXn2lHSpIXDfulX0tLE/hKrKRUAjBp/BFrLS/RTYS/Qm8ax88/QteiT5k5r6atDzJicWHXCmBwOi0nyLIx7KRyvzVi9R3zdBwfriD6hf9BnwZhSI1LEsnWuZe51w8a/vTltrmJZNEdIkiN1vXNEcXVNbJS37mh7vmtwUM2djX5X6boKvVt3mbFy9AyXM0F7DW2OlJrsU+/wdw0P0K479jeU4ZAxY/aMny+5v33vB+U8RD3eal2l6p/jttQXx12heWJVkkPmPuSZStIce/S441xzpz+ENAf3Y9/x3h6kcFTQXjuKP0E/oB8D4/hMD323e4rJPcQxRd+LHF6cmJzPCmwe67/VTN33vmVK+NOIT/W8FjlWxnOriHmI4xeaDSPP
   </data>
  </layer>
  <objectgroup name="Player" width="0" height="0">
-  <object name="player" type="Player" gid="92" x="89" y="221">
+  <object name="player" type="Player" gid="92" x="55" y="210">
    <properties>
     <property name="alpha" value="255"/>
     <property name="animSpeed" value="10"/>
@@ -61,7 +56,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="light" width="50" height="20">
+ <objectgroup name="light" width="50" height="20" visible="0">
   <object name="purple" type="Light" gid="91" x="105" y="198">
    <properties>
     <property name="alpha" value="255"/>
