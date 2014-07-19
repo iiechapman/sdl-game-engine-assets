@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="player" value="assets/sprites/chars/walk.png"/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
+  <image source="../assets/tiles/tiletemplate.png" width="544" height="160"/>
+ </tileset>
+ <tileset firstgid="86" name="player" tilewidth="32" tileheight="32">
+  <image source="../assets/sprites/chars/walk.png" width="128" height="32"/>
+ </tileset>
+ <tileset firstgid="90" name="light" tilewidth="32" tileheight="32">
+  <image source="../assets/tiles/ight_icon2.png" width="32" height="32"/>
+ </tileset>
+ <layer name="bg" width="100" height="100">
+  <properties>
+   <property name="collidable" value="false"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKHr8P27DpZDwVVTVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/ARU95k8=
+  </data>
+ </layer>
+ <layer name="fg" width="100" height="100">
+  <properties>
+   <property name="collidable" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztnFtuwzAMBIMeIWfI/c9Y+COoq0oiKZLSMt0BgrSOrddYFG0HeT0ejxdfMC+Cw/N0A8gv6AML+sCCPrCgDyzoAwv6wII+sKAPLOgDi9bHl/AiuUTOj9YX/dmhDyysPmax62vwN9HjmR/SWsP1xw7zKyzoA4udPhi/ZDg/sKAPLE75YMzqw/mBxWkfnCO/QYhXFh+f7u70/LjoORmNO33sYeXeyyfmBL3nH9Wo2OYRo+dRlajW3hn0gUVv/YiKy7vi+yetJ9L6YennaN8T41Q1P7j70Ix3b9u9D1L/Kp+7O3j70IzT7BpBGn+Ec68C0T7az9HigZZTcS7Lh9TmCk5O4PFx32aZG14nVeecBq+P93ZpLel5iPLRbqtMpA9NvBrtr0XK4+jj57PZmMzmi4WZe0+5KFw+tO2X9rOcs55xk+YcffzdLzM3lOJgZTJ8RB03Kmu0TlWj12atD29/o8erYnzStPmp2Deiz1XGLAtt/0fPa6PPv//mY3X8dj0//1Qf0bkKfcjsvPbc4aOCC5Q2ZvlAz30Q87PnQ+/Dcj8EpX930Nt3YfHRgtq/XXE+A4+PLKxjWHHcR5zysTNfqcbOfJdjLoMWr/479IEFfWBBH1jQBxb0gQV9YBH9e2S8vvCR8ftX1UBqe8T9xHZbFbK+K+DB4+P9Xm2OSO2t6qM3NzL6Elnu7F7mvZ5TTqKef+wcM2+50t/39/b4bKLX8wik83a1nlmM7dXfO9ZTrwZvvpvhoi23t2217Fn+MSvf2z/t8WjXg7N4EuVe46XXJm+dGtB8XGjX3Kx6evtF1KMB3Ue77QRSvdZ8bVYeoo87Jz3c29D+r52rlrmN+P0SJCJi5Sx/bqEPmag8lz5i8F7rWMqgD5kVH6v5cqSPjHwUBW1/vNf1ET6ycvZVss4HqdyIMYj4PnVv2+55MrqvEl1ur+zZOFhZ8aGtf4eTWfmW6wJLXSPnEf1dnR+93GH13ob1GEu/RzEk6v5H9DkXtX5o3lfKjbgWq5RneH2M5mulMUAi0kfvM7qwke2D2Ii8/mCc8sP7JVjQBx70gQV9YEEfWNAHFvSBBX1gQR9Y0AcW79975Qvjdfn4BocZHLc=
+  </data>
+ </layer>
+ <objectgroup name="player" width="100" height="100">
+  <object name="player_spawn" type="Player" gid="86" x="167" y="380">
+   <properties>
+    <property name="alpha" value="255"/>
+    <property name="animSpeed" value="10"/>
+    <property name="blendMode" value="blend"/>
+    <property name="blue" value="255"/>
+    <property name="green" value="255"/>
+    <property name="numFrames" value="4"/>
+    <property name="red" value="255"/>
+    <property name="textureHeight" value="32"/>
+    <property name="textureID" value="player"/>
+    <property name="textureWidth" value="32"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
