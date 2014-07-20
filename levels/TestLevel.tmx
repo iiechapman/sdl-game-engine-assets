@@ -15,7 +15,10 @@
  <tileset firstgid="86" name="player" tilewidth="32" tileheight="32">
   <image source="../assets/sprites/chars/walk.png" width="128" height="32"/>
  </tileset>
- <tileset firstgid="90" name="light" tilewidth="32" tileheight="32">
+ <tileset firstgid="90" name="light" tilewidth="195" tileheight="195">
+  <image source="../assets/tiles/light.png" width="195" height="195"/>
+ </tileset>
+ <tileset firstgid="91" name="lighticon" tilewidth="32" tileheight="32">
   <image source="../assets/tiles/ight_icon2.png" width="32" height="32"/>
  </tileset>
  <layer name="bg" width="100" height="100">
@@ -51,7 +54,7 @@
   </object>
  </objectgroup>
  <objectgroup name="light" width="100" height="100">
-  <object name="player" type="Light" gid="90" x="210" y="381">
+  <object name="player" type="Light" gid="91" x="1" y="33">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="add"/>
@@ -59,9 +62,9 @@
     <property name="green" value="255"/>
     <property name="lockTo" value="player"/>
     <property name="red" value="255"/>
-    <property name="textureHeight" value="195"/>
+    <property name="textureHeight" value="200"/>
     <property name="textureID" value="light"/>
-    <property name="textureWidth" value="195"/>
+    <property name="textureWidth" value="200"/>
    </properties>
   </object>
  </objectgroup>
