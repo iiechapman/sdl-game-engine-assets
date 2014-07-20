@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
  <properties>
+  <property name="light" value="assets/tiles/light.png"/>
   <property name="player" value="assets/sprites/chars/walk.png"/>
  </properties>
  <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32">
   <image source="../assets/tiles/tiletemplate.png" width="544" height="160"/>
+  <tile id="37">
+   <properties>
+    <property name="blendmode" value="blend"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="86" name="player" tilewidth="32" tileheight="32">
   <image source="../assets/sprites/chars/walk.png" width="128" height="32"/>
@@ -25,7 +31,7 @@
    <property name="collidable" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="player" width="100" height="100">
@@ -41,6 +47,21 @@
     <property name="textureHeight" value="32"/>
     <property name="textureID" value="player"/>
     <property name="textureWidth" value="32"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="light" width="100" height="100">
+  <object name="player" type="Light" gid="90" x="210" y="381">
+   <properties>
+    <property name="alpha" value="255"/>
+    <property name="blendMode" value="add"/>
+    <property name="blue" value="255"/>
+    <property name="green" value="255"/>
+    <property name="lockTo" value="player"/>
+    <property name="red" value="255"/>
+    <property name="textureHeight" value="195"/>
+    <property name="textureID" value="light"/>
+    <property name="textureWidth" value="195"/>
    </properties>
   </object>
  </objectgroup>

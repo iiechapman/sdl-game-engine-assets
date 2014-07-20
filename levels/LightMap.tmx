@@ -77,7 +77,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="light" width="50" height="20" visible="0">
+ <objectgroup name="light" width="50" height="20">
   <object name="purple" type="Light" gid="311" x="105" y="198">
    <properties>
     <property name="alpha" value="255"/>
