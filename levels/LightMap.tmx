@@ -25,7 +25,7 @@
  <tileset firstgid="312" name="player" tilewidth="32" tileheight="32">
   <image source="../assets/sprites/chars/walk.png" width="128" height="32"/>
  </tileset>
- <layer name="BG Layer" width="50" height="20">
+ <layer name="BG Layer" width="50" height="20" visible="0">
   <properties>
    <property name="collidable" value="false"/>
   </properties>
@@ -41,7 +41,7 @@
    eJztl78OgjAQxg91cPFPCMQ4aIKCT6AmxsHRxUXl/Z/FXkLDUa5YSosMfsmXFuXa+/WaWgMAGBU+NbSc18IXx46gVNgiJlTiY03L6SacFnbF9AsOjonyrCwYKce+iJXjpMqzDw6pp/BL+C2cE0ZTlkgZD1kyzTPNXXLK7w6atqtMWVSOIQrXT90TqeJMGz0c4Z7Lmb4L0TOX89nhXG21gTK/b8ZaD2VPHqG6hg+o7zvqO1TPKxsOOqdJzeT7LutLzysf9cCc+9iPvjn60p9jWPLFMXE0jqlcctDc297FukrlwP7YcqxY0+9DHAf2Tc94XQ3acARQXzucfyq8EF42xMnf8KZ7u04muTdxzITnJIetZk6ZTwI8D/ffKlI+N73L2PjKzI/ekRwD5r3EYBzk+ABi5DSo
   </data>
  </layer>
- <objectgroup name="objects" width="50" height="20">
+ <objectgroup name="objects" width="50" height="20" visible="0">
   <object name="treasure" type="Enemy" gid="86" x="128" y="545">
    <properties>
     <property name="blendMode" value="blend"/>
@@ -61,7 +61,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="player" width="0" height="0">
+ <objectgroup name="player" width="0" height="0" visible="0">
   <object name="player" type="Player" gid="312" x="55" y="210">
    <properties>
     <property name="alpha" value="255"/>
@@ -77,7 +77,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="light" width="50" height="20">
+ <objectgroup name="light" width="50" height="20" visible="0">
   <object name="purple" type="Light" gid="311" x="105" y="198">
    <properties>
     <property name="alpha" value="255"/>
