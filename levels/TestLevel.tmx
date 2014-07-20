@@ -37,7 +37,7 @@
    eJztm8mOEzEQQM1y4MKiEWE5gITI8AWANOLAkctcgPn/b6GNYsXjKbur7Cq77NSTrGQ63d6e7XZXMgfn3NGSmnRw6zB7W67c/G2Imb0t5kMXHD4eCyZqGSv5eOTO7fpWeIXS+y3dMKfXST2p18xI7CO0ObTpkHmF+OnO+wMuN+aj3kdMcBN7eQsco/Tt59O1IZ9j8rf52Of3lv5s6e+W7k7HvCusk7RvvZPrzN9p3Wcl9eHHWmjjl8xrK1gns/dtDaP2u77cdK1Jn1Ovs1evyygffi27A95fOsFHvIfP7Wm/D6qj54OjP7PMiPfh1+l3p6Rlzf7q7o+FW1eOwf1yfe85rc+3OTh8xH2HmUPhfM751nt/5fv26B72NzRWJH1Q1wXf9z3WuRE+MCn1skfL/JCYr7Vo9RF76bVeaWCkD+z5R8R55qOOeNxjz8f68Ptdbh9PM3WSWr9GxEuoa3tvH7GD3s+Yq/rwbXpCr9p/Dpn3PdDgozTvW3z4crDPCLk5QfHhvwdLx4A/9mxLL7f0qnBdaP+IGGRa1lXh3FYfJTAOSj6eb+mFO/flR6DMN1F9PjnYC/Qd1Yo+blx9PACTfrj9fgyx/zTFMRToc40+KHux4KP3b75SR1z9WBqj3FDmR2j3Hhp+78PtYy+eVDNeoET1ga3/aB8eTHwl/ewKOC/1IZlW9hGgrDfh3NTHKFb1ESfM55JxSgphbkLM6iMm5yNFk48cl+ajV1y/RC8fo9qJ9QHReq/mqm9AYn6M8AElaWr33pw+MH2tZZ2WhtsH9tk85GE+7uN9cK9z5kMXEj6MeqjxK/MhTxwfy2E++lNyYj7GkHOi+fl8dXr6kHoGXgmbH7po8aFtPM841zB1hv4fJ/e9nFEPtv9y88PW+zZq+87uH21w71XMxz4994hcPmZfz7TUn+ojNy60tAdLbpxjYkxShO/bsPvd0jzVfu/XXj8PxUeK1vbNHAto8SEFtQ9n7Pcco3xYTCtPLx/W5zi0rVeXjvnQhfnQhfnQBeRDct9j+6kyNj90YT50wenD1qB2Wnys8oytqe4c8cT02Cxo/K1Ai4/wOtsc2avvrD6guSHRFs58S7HMuJxRTri+/+jZZ6357r2PX9PrpeG+n3OwN25ryymtsVD50LUt5WJo3e9KuEjzhY7V5l3af5Tyb20f9nptz4Ol9YTLPcYLVKfWMjFo8+HB3nOlyoHO4ygHg3Yf6bER7JVL3a+V8tPoI2akh7gO6d/YuYqZ63HS7mMkkmslhMbf+1wy5kMX5kMXnD56rbErw+FDas9ey8zjgeP31NCx3vOEM8Y1khoflPibdL+U8qc8F2ihdn5Az5q1sQ3qNZR+zK2jmhzEcN0/MK81+baufzXXj/TV6gOKL426h3Cxig/os9lclOjRHmkfqzBT/GqVdarETD4MGGqcPcTazQcfNQ6gZD7a4PJgPtrg9mA+6pDyYD7oSLuQ+P+PUtKUL3cdtPioKXdkvhR6eeDw0Vp273x7tq2nD+46SOdLZZSL4GNk+ZYe+vgHfFxsvw==
   </data>
  </layer>
- <objectgroup name="player" width="100" height="100">
+ <objectgroup name="player">
   <object name="player_spawn" type="Player" gid="86" x="167" y="380">
    <properties>
     <property name="alpha" value="255"/>
@@ -53,7 +53,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="light" width="100" height="100">
+ <objectgroup name="light">
   <object name="player" type="Light" gid="91" x="166" y="341">
    <properties>
     <property name="alpha" value="255"/>
@@ -67,9 +67,9 @@
     <property name="textureWidth" value="200"/>
    </properties>
   </object>
-  <object name="standard" type="Light" gid="91" x="407" y="444">
+  <object name="standard" type="Light" gid="91" x="516" y="279">
    <properties>
-    <property name="alpha" value="255"/>
+    <property name="alpha" value="250"/>
     <property name="blendMode" value="add"/>
     <property name="blue" value="255"/>
     <property name="green" value="255"/>
