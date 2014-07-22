@@ -34,11 +34,11 @@
    <property name="collidable" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   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
+   eJztnUtvEzEQgJ20By48FJFCDyChlp44AlGFEDe4cAH6/38LsbpWJ5OxPbbH9uyuP2mUZJvNrudbrx+7SffGmNsRamJvloMty09PbDvuF5edGT40MXzoQsLHJ/NY1hrh4L7/yizLx8Y87veXwCMV18e4F47XaD8565T4yDlOpME+7GuXh73n8Q49fjen/QMpNyU+KC9SeazpJMXHneHxw5x7eUMsS/FxM63rPucWvXYuWp2vevrgesD8OcbfY/w7xsO0zLq6nrYDc3lvzvvhH9Hn3aBl8LWrP3bfl+QDljHXAwfr6oF4XhPJNqCVjyUzx/qxZObkg6rHB886cPlmChNZFlrO4Z1J649S56S5+LBt4NspXFt+MH4fLfhsTsc3v014Du6XOe+TcchtS6THuw6fDwv2Ie1nY8rqDAT2r1Jwfa9UbC5vzXl+qWOllo/Y8p7k+LhBkQL3+I95ocoROl/Fcq/FTW79yCX1vFTqQzMbIigfNY+V1HGMzwkm10fPesHxcUCP0sDjnvt+rg/b35WuH5dCn4OhXPjqhyXXB+f4T8lVLR+h8kEHeIwp1Y/yYT+75fnKmDY+bJkujP86x9fANvfoOfRT24fvfFUT7COU5xIfdjtuPBbKvwXXiUviuSXkwy6/mNZxYZc9O8bLY7wKrOfKhefoOf3D0rlF7GMX2VaJjxC+85LPh32EPp4f4wXYp/fTNqGPK7A/H8y5F9hm+K6Z1KaVj3tivdJwPuzzb4bOI/SxM/RYF547qb9r9BEag2Ccj9b3fOH9kspj7BiVJKV++MqN0TDfLu3DN19RcrxQkeqDOz7v7cPiK3PoPTvifdhHzViyD0eoTNR7bb9M+jyUy1J9wIj9/WIKDbi6STFXHzC3Ph+YrXnyQkUrllg/sA8qcj+vNq18hNaXRjp/ue10bhvvYwn1Y0lw5+Xh/SUOKie583Op1yGkfGi5bmlx4yDLwYTn1jT5kGp/NbkIkeMD5zO1rNTxEOoLlfrA2+t93xImtk+c+iFRrpY50ZT/ED3OV1Lra98eF4n6MWiHtv7u2hk+dEH5iPV/uJE7ls2h1Rx77cj1UYp0GxW7d6V3nkt91EZyG7avsjYf0v1Haecpc6Lag1s/JJ209kHdY9o776k+as49SJ+vcvqIvfO+5vpB0TvvJT7m3n5Q9M57af2QZF8hUumd9+HjlN551+Qjxha9rvFdhd555/rQQAsfnH0YPh6R9pFzXhs+nsA+pJiLDzxf2Po6NJ6nXLsPmPMe98Ti7Q0f8/YB24fQvmMfoT7znHzUHq+X1I+Utl/jvLC2+lH6nY41+Kh9/0zIB/wONCfXa/BRG279yPXhayPm5KPl/Za1fTikxlotfeCA5avlBv627PDB91GL4SPNR+1zlqSPEBrnhiDu/pLe9UOy/QgBffSYM44xfPDx7VMOvrlBro/a/d9WPko+S9IHBvrw/QYejNrf58Zzu77t9PYhERTOh2vPY+D5eOn/fYDrR4qP3GvoKT44xyw3MLCvxP2+Aa4fmnw49ui55D0Q2nxgrA8qhziPeJkvz9I+pKnlA48jsI9Qu07NqUiGY/g4/Xvv7wmH+g69xgw9fWjB56P0PrhcarUfEK0+4BwzBJen9fyHZD2hItUHXj+n/019t9DXnsT2R/t8VCpa64dj+NDF8KHLydp9WLhjEBulc2xbxjZCUD7m7Kjk9xla1KOcbSzVR+w4HT7kifkIMXzIEBp/YEb9qAc1Xue2Hxp9+PZ7Lj4o5tx+SPvoPY9qmXP/Sroe1C4PZ/6Ke72Wwo0/YteJS641L8EHZ17XMXw8oeHaTwsfcFvafVDPW1LTh4STJfno3X74vEj5kEb6fJV6bdBS2r9KyS1Gmw8pUh1AWvrIqStz9JELZ74kRK4Pqq6siZTr5ymU+FiaE8n7GXLzWepjjRG7D8T6+A8rKLmD
   </data>
  </layer>
  <objectgroup name="player">
-  <object name="player_spawn" type="Player" gid="86" x="167" y="380">
+  <object name="player_spawn" type="Player" gid="86" x="142" y="659">
    <properties>
     <property name="alpha" value="255"/>
     <property name="animSpeed" value="10"/>
@@ -54,7 +54,7 @@
   </object>
  </objectgroup>
  <objectgroup name="light">
-  <object name="player" type="Light" gid="91" x="166" y="341">
+  <object name="player" type="Light" gid="91" x="141" y="601">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="add"/>
@@ -67,7 +67,7 @@
     <property name="textureWidth" value="200"/>
    </properties>
   </object>
-  <object name="standard" type="Light" gid="91" x="40" y="787">
+  <object name="standard" type="Light" gid="91" x="76" y="703">
    <properties>
     <property name="alpha" value="250"/>
     <property name="blendMode" value="add"/>
@@ -127,7 +127,7 @@
     <property name="textureWidth" value="400"/>
    </properties>
   </object>
-  <object name="standard" type="Light" gid="91" x="1890" y="2913">
+  <object name="standard" type="Light" gid="91" x="2008" y="3179">
    <properties>
     <property name="alpha" value="250"/>
     <property name="blendMode" value="add"/>
@@ -187,7 +187,7 @@
     <property name="textureWidth" value="500"/>
    </properties>
   </object>
-  <object name="standard" type="Light" gid="91" x="910" y="1998">
+  <object name="standard" type="Light" gid="91" x="774" y="2027">
    <properties>
     <property name="alpha" value="250"/>
     <property name="blendMode" value="add"/>
