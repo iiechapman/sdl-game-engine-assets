@@ -1,7 +1,11 @@
 To Do:
 
-State parser needs to be able to load "First scene", then able to load next levels
 
-Object layer needs to load tilesets for objects
+Convert state parser from load "levels" to load "scenes"
 
-Object layer needs to reference to XML object list
+State parser needs to be able to load "First scene", then able to load next scene
+
+
+Object layer needs to load tilesets for objects and reference them
+
+Object layer needs to reference to XML object list instead of hand typing all properties
