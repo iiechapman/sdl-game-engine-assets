@@ -1,10 +1,7 @@
 To Do:
 
 
-Convert state parser from load "levels" to load "scenes"
-
-State parser needs to be able to load "First scene", then able to load next scene
-
+Convert state parser from load "levels" to load "scenes"?
 
 Object layer needs to load tilesets for objects and reference them
 
