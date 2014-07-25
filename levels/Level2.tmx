@@ -21,12 +21,18 @@
  <tileset firstgid="91" name="objects" tilewidth="32" tileheight="32">
   <image source="../assets/tiles/lofiobjects.png" width="511" height="511"/>
  </tileset>
+ <tileset firstgid="316" name="tiletemplateold" tilewidth="32" tileheight="32">
+  <image source="../assets/tiles/tiletemplateold.png" width="544" height="160"/>
+ </tileset>
+ <tileset firstgid="401" name="tiletemplateold bad" tilewidth="32" tileheight="32">
+  <image source="../assets/tiles/tiletemplateold bad.png" width="544" height="160"/>
+ </tileset>
  <layer name="bg" width="100" height="100">
   <properties>
    <property name="collidable" value="false"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztwwEJAAAMBKHr8P27DpZDwVVTVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/ARU95k8=
+   eJzt1MENQFAQRdGvBv2vlIAOUJdpQMJCPD9ncQqYd5MZW2sj3ZqGd3x9119d7TmXpax6RPTYyl4OPSJ6+Fd6oEcaPbLokUWPLHpk0SPLnQ2fbqwHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9OUEKfVzbw==
   </data>
  </layer>
  <layer name="fg" width="100" height="100">
@@ -34,10 +40,10 @@
    <property name="collidable" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
- <objectgroup name="objects">
+ <objectgroup name="objects" width="0" height="0">
   <object name="chest" type="Enemy" gid="91" x="1122" y="700">
    <properties>
     <property name="blendMode" value="blend"/>
@@ -48,7 +54,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="player">
+ <objectgroup name="player" width="0" height="0">
   <object name="player_spawn" type="Player" gid="86" x="934" y="701">
    <properties>
     <property name="alpha" value="255"/>
@@ -64,7 +70,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="light">
+ <objectgroup name="light" width="0" height="0">
   <object name="player" type="Light" gid="90" x="932" y="560">
    <properties>
     <property name="alpha" value="255"/>
