@@ -32,7 +32,7 @@
    <property name="collidable" value="false"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt1MENQFAQRdGvBv2vlIAOUJdpQMJCPD9ncQqYd5MZW2sj3ZqGd3x9119d7TmXpax6RPTYyl4OPSJ6+Fd6oEcaPbLokUWPLHpk0SPLnQ2fbqwHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9OUEKfVzbw==
+   eJzt18ENAjEMRcFQw/Z/ooSFDoC6NkWg7LczhzlHzpMi5xhjHA08Hz10mqWDVT3O6TW9A2ZOtqrHZ/pOv4CZk3mvsuzcI3F32KlHhX1ulx5V9usdelT673TtUfX/qYce1VvooUdFKzpUbq1Hdot/n3n33SX3uHuOLvTIokcWPbLokUWPLHpk0SOLHlm0yKJFFi2y6JBFhyw6ZNEgiw5ZdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA/i5akiV+
   </data>
  </layer>
  <layer name="fg" width="100" height="100">
@@ -43,7 +43,7 @@
    eJztnEtuGzEMhifxrt0F9Qka5Apddtd1btL2/pt2gAqRWT1IiRKp0f8BBNzE9dj8hnpwxrkfx/GKcBP3A3jh5YAPT8CHL+DDF7v7+EbimRmj2M0HzX8LI53s5KPHAQU+2onHIi3gQw4dlzTnAPiQQ8cm1IcdqbkCPo7j59Nx/CLx+6n8+9LzuaTm7VV8fBn02hZI11Ctcwl3nyLdx6zsg+4lWtayP/6FlDOXr8f/+U31a618pPKTyxfnuZLXa+ErCQnc87/mhaLtYxek45JnH5/+xmelY1oh3cfknFBQH23E5z33+VwfWuvdK/ngnP+S89ibj3elY3hiZR/fj+s5oT5KebbyMSs06O0tUh8vlWPN9jETTS+twMcjo+qGC9dHaQ9CWdlHipIf7R6gpD5ye3TK1XzEUC+SewQ5e26pD+7+/Ko+AtJ7R7gBH76BD1+cuczNUfAxH9SHL+BDhmSebp3jc8CHL7h9efgYT9ibn9T6CfBhB3zYU+u1wYcdqA97UB9rAR++gA9f7ORDu98+IuDDV8CHr4APf7GLjycS1nnf3QfFOu/w8Yh13uHjEeu8r+jjXoherPPO9XFT+KxalHz0+rHO+4o+Ag1fQa9infcVx6vACB814OODZ/LvXh8t4xp8fEB9aLGKjxuJkd9LShGOG9jdR5xzmpsZ0OPBx9o+4vmh9N6pj9KaeSUf2mOXZn1I5v5avaziQ5sbeQwfZR+jvytZ8hHGktAnr7GDj9Fw66PVR26OWMnHzO8Rj/YR0NprzfRBI/58o9y8RY/hg+9jFPAh8zF6zNL0UcJjbygm3F9iXR+a80eJ2IdFz7gGfPDJvacWcr1Bro/R699ZPnpeS9MHJfZB70tKRdz7HQHt7eaOY+1DI1IEH2E+r0H78W/lp4uh9SHx0XoNXeKDc85ygxKvlbj3i9L68OQjcCePNe+B8OaDcvpI5ZDmkf4sl2dtH9qM8kH3EdQH9+8X0vFLIwLw8fh7q79/FyitHaz2DJY+vJDzoX2fIpdR80eMVx9xjzmGfp7Z/Q/NOkmF1Af9/y3r71vmZ6n5pPZ+vPejpHitjwB8+AI+fDnZ3ccJdw9yRm+P7ZlxjBIpHys76vl+7Yw6ajnGVX3UzlP40KfmowR86FDaf1BQH+NI7de584dHH7n3vYqPFCvPH9o+rPuoJyuvr7TrYPTn4fSvuNdrU4T9R+06cc+15iv44PR1A/DxgYdrPzN8xMfy7iP1eCYjfWg4uZIP6/kj50XLhzba45X02uBJ7/pKkluKNx9aSB3EzPTRUisr+miF0y8p0eojVSs7Ibl+LqHHx9WcaN7P0JrPXh87Ru0+kNPHH9cogoI=
   </data>
  </layer>
- <objectgroup name="objects" width="0" height="0">
+ <objectgroup name="objects">
   <object name="chest" type="Enemy" gid="91" x="1122" y="700">
    <properties>
     <property name="blendMode" value="blend"/>
@@ -54,7 +54,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="player" width="0" height="0">
+ <objectgroup name="player">
   <object name="player_spawn" type="Player" gid="86" x="934" y="701">
    <properties>
     <property name="alpha" value="255"/>
@@ -70,7 +70,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="light" width="0" height="0">
+ <objectgroup name="light">
   <object name="player" type="Light" gid="90" x="932" y="560">
    <properties>
     <property name="alpha" value="255"/>
