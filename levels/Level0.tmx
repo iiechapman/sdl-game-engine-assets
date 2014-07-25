@@ -34,10 +34,10 @@
    <property name="collidable" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
- <objectgroup name="player">
+ <objectgroup name="player" width="0" height="0">
   <object name="player_spawn" type="Player" gid="86" x="934" y="701">
    <properties>
     <property name="alpha" value="255"/>
@@ -53,7 +53,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="light">
+ <objectgroup name="light" width="0" height="0">
   <object name="player" type="Light" gid="91" x="932" y="560">
    <properties>
     <property name="alpha" value="100"/>
