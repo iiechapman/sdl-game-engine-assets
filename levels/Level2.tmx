@@ -51,7 +51,7 @@
    <property name="collidable" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="player" width="0" height="0">
@@ -70,8 +70,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="objects" width="0" height="0" visible="0">
-  <object name="chest" type="Enemy" gid="91" x="1122" y="700">
+ <objectgroup name="objects" width="0" height="0">
+  <object name="chest" type="Enemy" gid="91" x="869" y="702">
    <properties>
     <property name="blendMode" value="blend"/>
     <property name="objectID" value="treasure"/>
