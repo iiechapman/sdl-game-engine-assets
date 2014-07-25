@@ -56,7 +56,7 @@
  <objectgroup name="light" width="0" height="0">
   <object name="player" type="Light" gid="91" x="932" y="560">
    <properties>
-    <property name="alpha" value="255"/>
+    <property name="alpha" value="100"/>
     <property name="blendMode" value="add"/>
     <property name="blue" value="255"/>
     <property name="green" value="255"/>
