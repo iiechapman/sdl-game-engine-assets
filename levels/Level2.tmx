@@ -27,6 +27,9 @@
  <tileset firstgid="401" name="tiletemplateold bad" tilewidth="32" tileheight="32">
   <image source="../assets/tiles/tiletemplateold bad.png" width="544" height="160"/>
  </tileset>
+ <tileset firstgid="486" name="Crates" tilewidth="32" tileheight="32">
+  <image source="../assets/tiles/Testing 4x4.png" width="544" height="160"/>
+ </tileset>
  <layer name="bg" width="100" height="100">
   <properties>
    <property name="collidable" value="false"/>
@@ -40,7 +43,7 @@
    <property name="collidable" value="false"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztzsEJACAMALE6pzq0G1noDCpCAve/CAAAAAAA4CerVQAAnDWzkfXXIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFy3AWOwArk=
+   eJzt1jENAEAIwEDwrw4jr+EHNDAQ7pJ6aAQAAAAAALBJZQcAwJzntwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE77pokClA==
   </data>
  </layer>
  <layer name="fg" width="100" height="100">
@@ -48,24 +51,10 @@
    <property name="collidable" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
- <objectgroup name="objects">
-  <properties>
-   <property name="collidable" value="true"/>
-  </properties>
-  <object name="chest" type="Enemy" gid="91" x="1122" y="700">
-   <properties>
-    <property name="blendMode" value="blend"/>
-    <property name="objectID" value="treasure"/>
-    <property name="textureHeight" value="32"/>
-    <property name="textureID" value="objects"/>
-    <property name="textureWidth" value="32"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup name="player">
+ <objectgroup name="player" width="0" height="0">
   <object name="player_spawn" type="Player" gid="86" x="934" y="701">
    <properties>
     <property name="alpha" value="255"/>
@@ -81,7 +70,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="objects">
+ <objectgroup name="objects" width="0" height="0" visible="0">
   <object name="chest" type="Enemy" gid="91" x="1122" y="700">
    <properties>
     <property name="blendMode" value="blend"/>
@@ -97,10 +86,10 @@
    <property name="collidable" value="false"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+   eJztw0EJAAAIBLCzfzsT+TCDD2GDJQAAAAAAwCddGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuDHikAGn
   </data>
  </layer>
- <objectgroup name="light">
+ <objectgroup name="light" width="0" height="0">
   <object name="player" type="Light" gid="90" x="932" y="560">
    <properties>
     <property name="alpha" value="220"/>
