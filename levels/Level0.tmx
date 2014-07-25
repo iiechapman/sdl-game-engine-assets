@@ -67,12 +67,12 @@
     <property name="textureWidth" value="200"/>
    </properties>
   </object>
-  <object name="standard" type="Light" gid="91" x="758" y="802">
+  <object name="standard" type="Light" gid="91" x="811" y="778">
    <properties>
     <property name="alpha" value="250"/>
     <property name="blendMode" value="add"/>
-    <property name="blue" value="255"/>
-    <property name="green" value="255"/>
+    <property name="blue" value="10"/>
+    <property name="green" value="10"/>
     <property name="red" value="255"/>
     <property name="textureHeight" value="400"/>
     <property name="textureID" value="light"/>
