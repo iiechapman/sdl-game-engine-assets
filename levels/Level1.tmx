@@ -22,7 +22,7 @@
   <image source="../assets/tiles/ight_icon2.png" width="32" height="32"/>
  </tileset>
  <tileset firstgid="92" name="green" tilewidth="32" tileheight="32">
-  <image source="tiletemplateold.png" width="544" height="160"/>
+  <image source="../tiletemplateold.png" width="544" height="160"/>
  </tileset>
  <layer name="bg" width="100" height="100">
   <properties>
@@ -38,6 +38,14 @@
   </properties>
   <data encoding="base64" compression="zlib">
    eJztnAtu2zAMQNPkBsVygha9wm6w+x9pEDAhCqcPKZEiafEBBNKmjRU+07JoJ8/b7fYdYSaet8AKnzcbPn4zh1d2+ZDO51WczPiwuv+e5MPDcWF1bHdCSDHy4cFDZtc4JZ1QfVhn13g1fHhzkeiNmTOH4QPHyAfXHBA+cJxUH9adjMbr3UfCsw+IFx+/Os9fyUeN2bmEslahrGNGPhIenMweW//8Cyopl9+3//Nb69dy+liZQzj6KtjtzfzPFwgK2P1/5AUyUx8Wa2T3+KjHJU4fCcs+NPYX6jqm5QQy68OSE41xlfs99u+xPrD9dm4nHLmT2k8w+z9mPy5fj9tHwlqdaI7Fgo+EBScr52JcQB+9PEv6SHCdy+48J4as9hahj8/BtiR9BOHDGlgfvTUI5CQf3D1ASn201uiQk3xQ7hHErLmpPrDr81N8UHsc4cM34cMWKZetOSp87CfqwxbhgwZlnp6d41uED1tg+/LhQ568Nk+M+m7hQ4/woc+oJx0+9Ij60CfqwxfhwxbhwxYn+eDut0tE+LAV4cNWhA97cYqPDxDaeT/dB0Q77+HjHe28h493tPPu0cezE6to5x3r48HwXrno+Vj1o513jz4yHwKvqZ13j8erjISPEeHjxR38vOpj5rgWPl5AH1x48fEAsfvzYHm7mdN9lDmHudkB3F748O2jnB96Y4c+eufMnnxwH7s464My94/qxYsPbh7gcfjo+5D+bHfPRz6W5D75iBN8SIOtj1kfrTnCk4+d33sg7SPDtdba6QNG+f6k3PwUj8MH3ocU4YPmQ/qYxemjh8XeUEm+v0S7Pjjnjx6lD42e8Yjwgac1phlavUGsD+nz310+Vl6L0wek9AHvS6pF2fuVAPZ2W9vR9sERNbKPPJ+PgP34n/6fk4H1QfExew2d4gOzz2IDUp4rYe8XhfVhyUfmCR5z3gNhzQck+ajlEOYR/q6VZ24f3Ej5gOsI6AP7fYXw+MURmfDx/vzOvlWN3rmD1ppB04cVWj6471PEIjV/lFj1UfaYS+D72d3/4KyTWlB9wP+fOf9+NH5Xm09G47Hej6JitT4y4cMW4cOWk9N9JLBrkBSrPbY7Yhs9aj48O1r5fO2OOprZxlV9jPbT8MHPyEeP8MFDb/0BifqQo7Zex84fFn20xu3FRw3P8we3D+0+asLz+RV3HUi/H0z/Cnu9tkZef4yuE69ca76CD0xfNxM+Xli49rPDR7kt6z5qj3ci6YPDyZV8aM8fLS9cPrjhPl5Rrw0mVs+vKLmFWPPBBdVByU4fM7Xi0ccsmH5Jj1kftVo5Ccr1cworPq7mhPN+htl8rvo4MUb3gSQffwGdc53z
+  </data>
+ </layer>
+ <layer name="Mid" width="100" height="100">
+  <properties>
+   <property name="collidable" value="false"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt0mEKwjAMBtAeVP2nIGK9h3hoM7AwghOVDnF7Dz7GaFZCslIAAAAAAIClq79u4I/V0nd+ve9bozy/mjJV9843fC7PfGqu+WxcYx/zeLWH8fuz85ZNZBvZzdTj2nz7f7d9nB/PS7eOGOS97COHyDVyjNwip1Tf9jGwDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGW6AwwhGUk=
   </data>
  </layer>
  <objectgroup name="player">
@@ -56,14 +64,6 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Mid" width="100" height="100">
-  <properties>
-   <property name="collidable" value="false"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJzt0mEKwjAMBtAeVP2nIGK9h3hoM7AwghOVDnF7Dz7GaFZCslIAAAAAAIClq79u4I/V0nd+ve9bozy/mjJV9843fC7PfGqu+WxcYx/zeLWH8fuz85ZNZBvZzdTj2nz7f7d9nB/PS7eOGOS97COHyDVyjNwip1Tf9jGwDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGW6AwwhGUk=
-  </data>
- </layer>
  <objectgroup name="light">
   <object name="player" type="Light" gid="91" x="932" y="560">
    <properties>
