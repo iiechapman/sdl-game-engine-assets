@@ -53,6 +53,14 @@
    </properties>
   </object>
  </objectgroup>
+ <layer name="Mid" width="100" height="100">
+  <properties>
+   <property name="collidable" value="false"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJAAAIBDG3cv/NrO0Fv0gmOLgqAAAAAAAArvR3AIsfWfzI4kcWP7L4AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAtdAFL
+  </data>
+ </layer>
  <objectgroup name="light">
   <object name="player" type="Light" gid="91" x="932" y="560">
    <properties>
