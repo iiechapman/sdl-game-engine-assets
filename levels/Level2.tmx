@@ -55,7 +55,7 @@
   <properties>
    <property name="collidable" value="true"/>
   </properties>
-  <object name="chest" type="Enemy" gid="91" x="1122" y="700">
+  <object name="chest" type="Enemy" gid="91" x="1186" y="703">
    <properties>
     <property name="blendMode" value="blend"/>
     <property name="objectID" value="treasure"/>
@@ -82,10 +82,18 @@
   </object>
  </objectgroup>
  <objectgroup name="objects">
-  <object name="chest" type="Enemy" gid="91" x="1122" y="700">
+  <object name="chest" type="Enemy" gid="91" x="1263" y="709">
    <properties>
     <property name="blendMode" value="blend"/>
     <property name="objectID" value="treasure"/>
+    <property name="textureHeight" value="32"/>
+    <property name="textureID" value="objects"/>
+    <property name="textureWidth" value="32"/>
+   </properties>
+  </object>
+  <object name="crystal" type="Enemy" gid="95" x="1331" y="703">
+   <properties>
+    <property name="blendMode" value="blend"/>
     <property name="textureHeight" value="32"/>
     <property name="textureID" value="objects"/>
     <property name="textureWidth" value="32"/>
