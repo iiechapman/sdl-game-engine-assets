@@ -30,6 +30,9 @@
  <tileset firstgid="486" name="Crates" tilewidth="32" tileheight="32">
   <image source="../assets/tiles/Testing 4x4.png" width="544" height="160"/>
  </tileset>
+ <tileset firstgid="571" name="blob" tilewidth="32" tileheight="32">
+  <image source="../assets/tiles/blob.png" width="32" height="32"/>
+ </tileset>
  <layer name="bg" width="100" height="100">
   <properties>
    <property name="collidable" value="false"/>
@@ -51,10 +54,10 @@
    <property name="collidable" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztnc1yEzEMgDfJjTIcOuQJ6PQVOPbGmTcB3hF4KLiQHfDUEf6RbMmS1/pmNJOmaTbRt7LX2k163bbtycNMXDfHCo+b+7CE+7CFpI/vp237cYufJ6ENHJDV6+MjiDMypFjNB8x/C5JOrPgYMbb1OIAc3Yck8VjEhfugA8clzjnAfdCBY5PXhx6pucJ9bNuX2/z8FcS3U/n3pcdjSc3bs/h4L/TcGlCPoVrnEuw6hbqOmdkHXEu0HMt++hdU9lw+bf/nN9Wv1fKRyk8uX5jHUp6vhQ8gKGD3/5oXCLePVaCOS5Z9vLnFA9M2taCuY3JOIF4fbcT7PfbxWB9cx7vcPt5JNlIrYPZ/yn5szcdn5HP8uq01fp/+utD0gWFmHy9b3cme/4dbvD3P6aOUZy0fo4KD3t4i9PFY2dZoHyPh9NKK+7hHqm6wYH2U1iCQmX2kKPnhno4o9ZFbo0OO5iMGeqFcI4hZc1N9YNfnR/URoF47gg33YRv3YYs9l7k5yn2Mx+vDFu6DBmWebp3jc7gPW2D78u5DnrA236n1E9yHHu5Dn1qvzX3o4fWhj9fHXLgPW7gPW6zkg7vfLhHuw1a4D1vhPuzFKj5OILTzvroPiHbe3cc92nl3H/do531GH9dC9KKdd6yPC8N75aLko9ePdt5n9BGQ+JoZ7bzPOF4FNL7SzH28cgY/9/poGdfcxyvQBxez+LiAkPxcUoqw3cDqPuKcw9yMAG7PfcztI54fSq8d+igdM8/kg3vs4qwPytxfq5dZfHBzAbfdR9mH9GclSz7CWBL65DVW8CENtj5afeTmiJl8jPwcsbSPANdaa6QPGPH7k3LzHN12H3gfUrgPmg/pMYvTRwmLvaGYcH2Jdn1wzh8lYh8W/w2G+8CTe00t5HqDWB/Sx7+jfPQ8F6cPSOwDXpeUirj3KwHs7ea2o+2DI1IEH2E+rwH78c/lh5OB9UHx0XoOneIDs89iAxIfK2GvF4X1YclH4Apuc14DYc0HZPeRyiHMI7wvl2duH9xI+YDrCOgD+/2FcPziiID7uP+91vffBUrHDlprBk0fVsj54L5OEYvU/BFj1UfcY46B72d0/4OzTlJB9QH/vuX4+5K5LzWf1F6P9X4UFav1EXAftnAftpys7mMHuwbZo7fHdkZso0TKx8yOej5fO6KOWrZxVB+1/dR98FPzUcJ98FBaf0C8PuRIrdex84dFH7nXPYuPFDPPH9w+tPuoOzMfX3HXgfT7wfSvsOdrU4T1R+08cc+55iP4wPR1A+7jFQvnfkb4iLdl3Ufq9kgkfXA4OZIP7fkj54XLBzfc4xX13OBO7/EVJbcQaz64oDqIGemjpVZm9NEKpl9SotVHqlZWgnL+nEKPj6M54byeoTWfvT5WjNp1ILuPPyfMiZg=
+   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
   </data>
  </layer>
- <objectgroup name="player" width="0" height="0">
+ <objectgroup name="player">
   <object name="player_spawn" type="Player" gid="86" x="934" y="701">
    <properties>
     <property name="alpha" value="255"/>
@@ -70,7 +73,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="objects" width="0" height="0">
+ <objectgroup name="objects">
   <object name="chest" type="Enemy" gid="91" x="869" y="702">
    <properties>
     <property name="blendMode" value="blend"/>
@@ -86,10 +89,10 @@
    <property name="collidable" value="false"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztw0EJAAAIBLCzfzsT+TCDD2GDJQAAAAAAwCddGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuDHikAGn
+   eJzt08EJACAMA8DqWt1/ASfy4QaCFeUO8s8jiQAAAAAAAF4y2goAnJD9dgOot7N7XwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPjbBIBRAl4=
   </data>
  </layer>
- <objectgroup name="light" width="0" height="0">
+ <objectgroup name="light">
   <object name="player" type="Light" gid="90" x="932" y="560">
    <properties>
     <property name="alpha" value="220"/>
