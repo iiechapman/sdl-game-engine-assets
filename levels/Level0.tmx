@@ -64,21 +64,21 @@
  <objectgroup name="light">
   <object name="player" type="Light" gid="91" x="932" y="560">
    <properties>
-    <property name="alpha" value="100"/>
+    <property name="alpha" value="220"/>
     <property name="blendMode" value="add"/>
     <property name="blue" value="255"/>
     <property name="green" value="255"/>
     <property name="lockTo" value="player"/>
     <property name="red" value="255"/>
-    <property name="textureHeight" value="200"/>
+    <property name="textureHeight" value="195"/>
     <property name="textureID" value="light"/>
-    <property name="textureWidth" value="200"/>
+    <property name="textureWidth" value="195"/>
    </properties>
   </object>
   <object name="standard" type="Light" gid="91" x="811" y="778">
    <properties>
-    <property name="alpha" value="250"/>
-    <property name="blendMode" value="add"/>
+    <property name="alpha" value="255"/>
+    <property name="blendMode" value="blend"/>
     <property name="blue" value="10"/>
     <property name="green" value="10"/>
     <property name="red" value="255"/>
