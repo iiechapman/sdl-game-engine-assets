@@ -33,6 +33,17 @@
  <tileset firstgid="571" name="blob" tilewidth="32" tileheight="32">
   <image source="../assets/tiles/blob.png" width="32" height="32"/>
  </tileset>
+ <tileset firstgid="572" name="DebugButtons" tilewidth="32" tileheight="32">
+  <image source="../assets/tiles/DebugButtons.png" width="160" height="128"/>
+  <tile id="12">
+   <properties>
+    <property name="collidable" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="592" name="litesmushrroms" tilewidth="32" tileheight="32">
+  <image source="../assets/tiles/litesmushrroms.png" width="320" height="320"/>
+ </tileset>
  <layer name="bg" width="100" height="100">
   <properties>
    <property name="collidable" value="false"/>
@@ -46,7 +57,7 @@
    <property name="collidable" value="false"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt1jENAEAIwEDwrw4jr+EHNDAQ7pJ6aAQAAAAAALBJZQcAwJzntwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE77pokClA==
+   eJzt1UkKgzAUAFDNtbyE4LJdpva8vYhnqFKlEoeNIkHeg5DhJ5v8DEUBAAAAAABLddiOVWHZT+fvreeYT/kr5Ovl/GfnISdZGO7Gsy/vlXykfwvXa/ocxCAXZ5q/PWvv0DSWxvbmbsU5Lo772o51V/7bqdpdAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuL0vBXcLew==
   </data>
  </layer>
  <layer name="fg" width="100" height="100">
@@ -54,7 +65,7 @@
    <property name="collidable" value="true"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup name="player">
@@ -84,16 +95,8 @@
    </properties>
   </object>
  </objectgroup>
- <layer name="Portal2" width="100" height="100">
-  <properties>
-   <property name="collidable" value="false"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJzt08EJACAMA8DqWt1/ASfy4QaCFeUO8s8jiQAAAAAAAF4y2goAnJD9dgOot7N7XwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPjbBIBRAl4=
-  </data>
- </layer>
  <objectgroup name="light">
-  <object name="player" type="Light" gid="90" x="932" y="560">
+  <object name="player" type="Light" gid="90" x="935.609" y="563.606" width="10" height="18" rotation="-0.855763">
    <properties>
     <property name="alpha" value="220"/>
     <property name="blendMode" value="add"/>
@@ -311,4 +314,20 @@
    </properties>
   </object>
  </objectgroup>
+ <layer name="Portal2" width="100" height="100">
+  <properties>
+   <property name="collidable" value="false"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzjENADAIAEFQVf8WUMSAgW6E5C75/SMAAAAAAIBLKifgz9seAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADOaaWEAd4=
+  </data>
+ </layer>
+ <layer name="debug" width="100" height="100">
+  <properties>
+   <property name="collidable" value="false"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1DsKhEAQBcBhziUiq/hh1fsfx04MBEUDlV2ogpf0TNa8TgkAAAAAAPgHQ07pE6kjTd7/8z2Yc7+zfYwx6yKtnbxivtCPVR/vk7086sq9ArbK6EoRqXQGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfsICmEoG8w==
+  </data>
+ </layer>
 </map>
