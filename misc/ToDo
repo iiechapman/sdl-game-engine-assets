@@ -1,47 +1,51 @@
 To Do:  NOT in order of priority.  map creation and lighting issues are first things
 
 **NOTE: PLEASE UPDATE TO COMMIT ee5012d before editing levels!**
+** Changed To Library File**
 
 
-Convert state parser from load "levels" to load "scenes"
 
-State parser needs to be able to load "First scene", then able to load next scene
-(Can switch levels in Play State)
-Convert state parser from load "levels" to load "scenes"?
-
+<--Objects-->
 Object layer needs to load tilesets for objects and reference them
 
-Object layer needs to reference to XML object list instead of hand typing all properties
 
+-add ability to have a tile set of multiple lights
+  -either a collection, or sml/med/lrg tile sets
 
+  -light attached to player separate from tiled
+  -light attached to objects, glowshroom,  and techlight etc
+
+  -key and door functionality: collect key, button, kill all enemies, kill boss.
+
+  -place “enemies” default movement, random for now
+
+  -create a ai scripting system
+
+<--Animations-->
 -add jetpack jump and hover animations
 
 -animated tiles and objects that are non player(ala flickering candle)
 
+
+<--Collisions-->
 -collision of slanted objects and tiles.
 
--fix tiled vs engine light position offset
 
--add ability to have a tile set of multiple lights
-	-either a collection, or sml/med/lrg tile sets
 
+<--Map Editing-->
 -instead of light icon, tile set will be outline of light shape and size
 
 -add parallax property to layers, value of zero is no movement, negative numbers move one direction, positive the other relative to player, magnitude of number  increases movement.
 
+<--Engine Features-->
 -live mode that doesn’t reset player back to spawn
 -live mode that allows player movement
 -reset/reload level option
 -add key command to bring up DEBUG mode with buttons and sliders to turn on/off live mode, reset level, uncheck lights, enemies, raise lower volume,  slo-mo mode.
-
--light attached to player separate from tiled
--light attached to objects, glowshroom,  and techlight etc
-
--key and door functionality: collect key, button, kill all enemies, kill boss.
+Convert state parser from load "levels" to load "scenes"
+-fix tiled vs engine light position offset
 -warp-pad, fade sprite , move camera to location fade back in.
 
+<--Library-->
 -increase and extend xml,  game.xml for overall game properties,  player, enemy, etc
-
--place “enemies” default movement, random for now
-
--create a ai scripting system
+Object layer needs to reference to XML object list instead of hand typing all properties
