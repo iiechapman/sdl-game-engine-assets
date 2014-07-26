@@ -1,6 +1,7 @@
 To Do:  NOT in order of priority.  map creation and lighting issues are first things
 
-AJ ADD YOUR NOTES HERE :)
+**NOTE: PLEASE UPDATE TO COMMIT ee5012d before editing levels!**
+
 
 Convert state parser from load "levels" to load "scenes"
 
@@ -41,6 +42,6 @@ Object layer needs to reference to XML object list instead of hand typing all pr
 
 -increase and extend xml,  game.xml for overall game properties,  player, enemy, etc
 
--place “enemies” default movement, random for now 
+-place “enemies” default movement, random for now
 
--create a ai scripting system 
+-create a ai scripting system
