@@ -45,6 +45,7 @@ Object layer needs to load tilesets for objects and reference them
 Convert state parser from load "levels" to load "scenes"
 -fix tiled vs engine light position offset
 -warp-pad, fade sprite , move camera to location fade back in.
+scaled objects independently from camera zoom
 
 <--Library-->
 -increase and extend xml,  game.xml for overall game properties,  player, enemy, etc
