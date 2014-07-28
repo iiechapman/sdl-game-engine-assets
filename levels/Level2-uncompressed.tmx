@@ -50329,5 +50329,7 @@
     <property name="textureWidth" value="32"/>
    </properties>
   </object>
+  <object name="crystal" type="Enemy" gid="95" x="1727" y="799"/>
+  <object name="bluefire" type="Enemy" gid="192" x="1791" y="830"/>
  </objectgroup>
 </map>
