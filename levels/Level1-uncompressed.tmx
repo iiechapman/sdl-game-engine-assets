@@ -30046,7 +30046,7 @@
   </data>
  </layer>
  <objectgroup name="player">
-  <object name="player_spawn" type="Player" gid="171" x="934" y="701">
+  <object name="player_spawn" type="Player" gid="171" x="885" y="668">
    <properties>
     <property name="alpha" value="255"/>
     <property name="animSpeed" value="10"/>
@@ -30062,7 +30062,7 @@
   </object>
  </objectgroup>
  <objectgroup name="light">
-  <object name="player" type="Light" gid="176" x="932" y="560">
+  <object name="player" type="Light" gid="176" x="931" y="544">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="add"/>
@@ -30075,7 +30075,7 @@
     <property name="textureWidth" value="200"/>
    </properties>
   </object>
-  <object name="standard" type="Light" gid="176" x="758" y="802">
+  <object name="standard" type="Light" gid="176" x="577" y="332">
    <properties>
     <property name="alpha" value="250"/>
     <property name="blendMode" value="add"/>
@@ -30087,7 +30087,7 @@
     <property name="textureWidth" value="400"/>
    </properties>
   </object>
-  <object name="standard" type="Light" gid="176" x="1546" y="916">
+  <object name="standard" type="Light" gid="176" x="1214" y="272">
    <properties>
     <property name="alpha" value="250"/>
     <property name="blendMode" value="add"/>

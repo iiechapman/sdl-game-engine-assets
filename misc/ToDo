@@ -1,52 +1,63 @@
-To Do:  NOT in order of priority.  map creation and lighting issues are first things
 
-**NOTE: PLEASE UPDATE TO COMMIT ee5012d before editing levels!**
-** Changed To Library File**
 
+Notes:
+Commit ee5012d changed to "Library.xml" file, please move to atleast that commit
 
 
 <--Objects-->
-Object layer needs to load tilesets for objects and reference them
+1.Object layer needs to load Library for objects and reference them
+2.key and door functionality: collect key, button, kill all enemies, kill boss.
+3.Enemy "behaviors", start with basic movement, extend to full movement
+4.create a ai scripting system to work with behaviors
 
+<--Lighting-->
+1.add ability to have a tile set of multiple lights
+(either a collection, or sml/med/lrg tile sets)
+2.light attached to player separate from tiled (WIP)
+3.light attached to objects, glowshroom,  and techlight etc
 
--add ability to have a tile set of multiple lights
-  -either a collection, or sml/med/lrg tile sets
-
-  -light attached to player separate from tiled
-  -light attached to objects, glowshroom,  and techlight etc
-
-  -key and door functionality: collect key, button, kill all enemies, kill boss.
-
-  -place “enemies” default movement, random for now
-
-  -create a ai scripting system
 
 <--Animations-->
--add jetpack jump and hover animations
-
--animated tiles and objects that are non player(ala flickering candle)
+1.add jetpack jump and hover animations for player (WIP)
+2.animated tiles and objects that are non player(ala flickering candle) (WIP)
 
 
 <--Collisions-->
--collision of slanted objects and tiles.
-
+1.Collision event handling (Player hit spikes,player collided with health)
+2.Collision of slanted objects and tiles
 
 
 <--Map Editing-->
--instead of light icon, tile set will be outline of light shape and size
+1.Fix offsets between items in tiled and in game(WIP)
+(Note: issue is due to sizing property, need to switch to "scale" factor)
+2.instead of light icon, tile set will be outline of light shape and size
+3.add parallax property to layers
+(value of zero is no movement, negative numbers move one direction,
+positive the other relative to player, magnitude of number  increases movement)
 
--add parallax property to layers, value of zero is no movement, negative numbers move one direction, positive the other relative to player, magnitude of number  increases movement.
 
 <--Engine Features-->
--live mode that doesn’t reset player back to spawn
--live mode that allows player movement
--reset/reload level option
--add key command to bring up DEBUG mode with buttons and sliders to turn on/off live mode, reset level, uncheck lights, enemies, raise lower volume,  slo-mo mode.
-Convert state parser from load "levels" to load "scenes"
--fix tiled vs engine light position offset
--warp-pad, fade sprite , move camera to location fade back in.
-scaled objects independently from camera zoom
+1.fix tiled vs engine light position offset
+1.live mode that doesn’t reset player back to spawn
+2.live mode that allows player movement
+3.reset/reload level option
+4.add key command to bring up DEBUG mode with buttons and sliders to turn on/off:
+(live mode, reset level, uncheck lights, enemies, raise lower volume,  slo-mo mode)
+5."Warp Pad", fade sprite , move camera to location fade back in.
+6.scaled objects independently from camera zoom
 
 <--Library-->
--increase and extend xml,  game.xml for overall game properties,  player, enemy, etc
-Object layer needs to reference to XML object list instead of hand typing all properties
+1.increase and extend xml,  Library.xml for overall game properties,  player, enemy, etc (WIP)
+2.Object layer needs to reference to XML object list instead of hand typing all properties(WIP)
+
+
+
+
+
+
+
+
+
+
+
+

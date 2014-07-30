@@ -20036,7 +20036,7 @@
   </data>
  </layer>
  <objectgroup name="player">
-  <object name="player_spawn" type="Player" gid="86" x="1246" y="1951">
+  <object name="player_spawn" type="Player" gid="86" x="1251" y="1915">
    <properties>
     <property name="alpha" value="255"/>
     <property name="animSpeed" value="10"/>
