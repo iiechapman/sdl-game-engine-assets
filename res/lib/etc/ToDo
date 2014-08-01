@@ -37,7 +37,8 @@ positive the other relative to player, magnitude of number  increases movement)
 
 
 <--Engine Features-->
-1.fix tiled vs engine light position offset
+1.fix tiled vs engine light position offset(WIP)
+(Note: when we move details of object into library, it wont give us trouble)
 1.live mode that doesn’t reset player back to spawn
 2.live mode that allows player movement
 3.reset/reload level option
