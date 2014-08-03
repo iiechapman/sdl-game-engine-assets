@@ -1,0 +1,29 @@
+<ELEMENTS>
+	<ELEMENT>
+		<NAME>Treasure</NAME>
+		<TYPE>Item</TYPE>
+		<TEXTURE>light</TEXTURE>
+		<WIDTH>195</WIDTH>
+		<HEIGHT>195</HEIGHT>
+		<ANIMATIONS>
+			<NAME>standing</NAME>
+			<ROW>1</ROW>
+			<FRAME>0</FRAME>
+			<FRAMES>1</FRAMES>
+			<SPEED>0</SPEED>
+		</ANIMATIONS>
+		<STARTINGANIM>standing</STARTINGANIM>
+		<COLLISIONEFFECT>
+			<TYPE>get_gold</TYPE>
+			<AMOUNT>100</AMOUNT>
+			<SOUND>gold_sound</SOUND>
+		</COLLISIONEFFECT>
+	</ELEMENT>
+</ELEMENTS>
+
+
+
+<element name ="Light" type="Light" textureID="light"
+            width="195" height="195" row ="1" frame ="0" numFrames="1"
+            animSpeed="0" effectID="hurt_player"
+            effectAmount="999"soundID="hurt_sound"/>
