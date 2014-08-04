@@ -50087,9 +50087,16 @@
   <object name="Flame" type="Enemy" gid="192" x="1793" y="803"/>
   <object name="Crystal" type="Enemy" gid="1073741919" x="2014" y="671"/>
   <object name="Apple" type="Enemy" gid="695" x="1548" y="739"/>
+  <object name="Apple" type="Enemy" gid="695" x="1136" y="611"/>
+  <object name="Apple" type="Enemy" gid="695" x="1915" y="797"/>
+  <object name="Apple" type="Enemy" gid="695" x="1970" y="799"/>
+  <object name="Apple" type="Enemy" gid="695" x="2037" y="800"/>
+  <object name="Apple" type="Enemy" gid="695" x="2440" y="803"/>
+  <object name="Apple" type="Enemy" gid="695" x="2236" y="580"/>
+  <object name="Apple" type="Enemy" gid="695" x="2031" y="387"/>
  </objectgroup>
  <objectgroup name="player">
-  <object name="Player" type="Player" gid="86" x="929" y="670">
+  <object name="Player" type="Player" gid="86" x="805" y="445">
    <properties>
     <property name="alpha" value="255"/>
     <property name="animSpeed" value="10"/>
@@ -50105,7 +50112,7 @@
   </object>
  </objectgroup>
  <objectgroup name="light">
-  <object name="Light" type="Light" gid="90" x="928.609" y="664.606" width="10" height="18" rotation="-0.855763">
+  <object name="Light" type="Light" gid="90" x="824.609" y="452.606" width="10" height="18" rotation="-0.855763">
    <properties>
     <property name="alpha" value="220"/>
     <property name="blendMode" value="add"/>
@@ -50118,10 +50125,10 @@
     <property name="textureWidth" value="195"/>
    </properties>
   </object>
-  <object name="Light" type="Light" gid="90" x="666" y="417">
+  <object name="Light" type="Light" gid="90" x="2371" y="229">
    <properties>
     <property name="alpha" value="250"/>
-    <property name="blendMode" value="add"/>
+    <property name="blendMode" value="blend"/>
     <property name="blue" value="30"/>
     <property name="green" value="30"/>
     <property name="red" value="255"/>
