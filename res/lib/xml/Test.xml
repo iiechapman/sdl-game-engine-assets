@@ -1,3 +1,88 @@
+<!-- 
+Element
+Name(string)
+Type(string)
+Width(int)
+Height(int)
+CollisionType(string)
+BehaviorType(string)
+MovementType(string)
+-Animations(collection)
+-->
+
+
+<!--
+Animation (What happens to render every game tick)
+Name(string)
+Row(int)
+StartFrame(int)
+Frames(int)
+Speed(int)
+-->
+
+
+<!-- 
+Collision (What happens when colliding with other object on game tick)
+Name(string)
+CollidingWith(string) [Tile,Player,NPC]
+TriggerWhenFalling(bool)
+TriggerWhenJumping(bool)
+FlipHorizontal(bool)
+FlipVertical(bool)
+StopHorizontal(bool)
+StopVertical(bool)
+SetVertical(string)[up,down,left,right]
+SetHorizontal(string)[up,down,left,right]
+SetVerticalSpeed(int)
+SetHorizontalSpeed(int)
+-->
+
+
+<!-- 
+MovementType (What happens to position every game tick)
+Name(string)
+AllowVertical(bool)
+AllowHorizontal(bool)
+Gravity(bool)
+Weight(int)
+-->
+
+<!--
+Example Movement
+Name = Platformer
+AllowVertical =t rue
+AllowHorizontal = true
+Gravity = true
+Weight = 10
+-->
+
+
+<!-- 
+Behavior (What happens to state during every game tick?)
+Name(string)
+Intelligence(int) [0-100] (how frequently it calculates and makes decisions)
+Sight(int) [0-999] (how far out in pixels we can scan)
+Hearing(int)[0-999](how far out in pixels we can scan)
+Demeanor(string) [aggressive,curious,neutral,cautious,scared](what its tendency to defy/adhere to rules)
+Avoid(string) optional (tags of objects it moves away from)
+Seek(string) optional (tags of objects it looks for)
+Attack(string) optional (tags of objects it looks for to attack)
+-->
+
+
+<!--
+Example Behavior
+Name = Ferocious
+Intelligence = 100
+Sight = 999
+Hearing = 999
+Demeanor = Aggressive
+Seek = Shadow
+Attack = Player
+Seek =  Player
+-->
+
+
 <ELEMENTS>
 	<ELEMENT>
 		<NAME>Treasure</NAME>
@@ -20,6 +105,9 @@
 		</COLLISIONEFFECT>
 	</ELEMENT>
 </ELEMENTS>
+
+
+
 
 
 

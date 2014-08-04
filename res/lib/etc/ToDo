@@ -50,15 +50,3 @@ positive the other relative to player, magnitude of number  increases movement)
 <--Library-->
 1.increase and extend xml,  Library.xml for overall game properties,  player, enemy, etc (WIP)
 2.Object layer needs to reference to XML object list instead of hand typing all properties(WIP)
-
-
-
-
-
-
-
-
-
-
-
-
