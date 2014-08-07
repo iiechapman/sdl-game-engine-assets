@@ -83,28 +83,52 @@ Seek =  Player
 -->
 
 
-<ELEMENTS>
-	<ELEMENT>
-		<NAME>Treasure</NAME>
-		<TYPE>Item</TYPE>
-		<TEXTURE>light</TEXTURE>
-		<WIDTH>195</WIDTH>
-		<HEIGHT>195</HEIGHT>
-		<ANIMATIONS>
-			<NAME>standing</NAME>
-			<ROW>1</ROW>
-			<FRAME>0</FRAME>
-			<FRAMES>1</FRAMES>
-			<SPEED>0</SPEED>
-		</ANIMATIONS>
-		<STARTINGANIM>standing</STARTINGANIM>
-		<COLLISIONEFFECT>
-			<TYPE>get_gold</TYPE>
-			<AMOUNT>100</AMOUNT>
-			<SOUND>gold_sound</SOUND>
-		</COLLISIONEFFECT>
-	</ELEMENT>
-</ELEMENTS>
+<Elements>
+	<Element>
+		<Name>Player</Name>
+		<Type>Player</Type>
+		<Texture>Player</Texture>
+		<Width>32</Width>
+		<Height>32</Height>
+		<Scale>1</Scale>
+		<Animations>
+			<animation name="default" row="1" frame="1" numFrames="2" speed="1"/>
+			<animation name="walk" row="1" frame="3" numFrames="3" speed="10"/>
+			<animation name="jump" row="1" frame="6" numFrames="2" speed="3"/>
+			<animation name="jet" row="2" frame="1" numFrames="2" speed="10"/>
+			<animation name="die" row="2" frame="3" numFrames="8" speed="10"/>
+		</Animations>
+		<Events>
+			<event type="collision" with="tile" action="stop_movement" sound="land_sound"/>
+			<event type="collision" with="enemy" action="enemy_response" sound="hurt_sound"/>
+			<event type="collision" with="hazard" action="hazard_response" sound="hurt_sound"/>
+		</Events>
+	</Element>
+
+	<Element>
+		<Name>Bat</Name>
+		<Type>Enemy</Type>
+		<Texture>Enemy_Sheet</Texture>
+		<Width>16</Width>
+		<Height>16</Height>
+		<Scale>1</Scale>
+		<Animations>
+			<animation name="default" row="1" frame="1" numFrames="2" speed="1"/>
+			<animation name="fly" row="1" frame="6" numFrames="2" speed="3"/>
+			<animation name="die" row="2" frame="1" numFrames="8" speed="10"/>
+		</Animations>
+		<Events>
+			<event type="collision" with="tile" action="reverse_movement" sound="flip_sound"/>
+			<event type="collision" with="player" action="hurt_player" amount="10" sound="attack_sound"/>
+			<event type="collision" with="hazard" action="reverse_movement" sound="flip_sound"/>
+			<event type="value" whichValue="health" whatValue="0" action="kill_object" sound="die_sound"/>
+		</Events>
+	</Element>
+
+
+</Elements>
+
+
 
 
 
@@ -115,3 +139,5 @@ Seek =  Player
             width="195" height="195" row ="1" frame ="0" numFrames="1"
             animSpeed="0" effectID="hurt_player"
             effectAmount="999"soundID="hurt_sound"/>
+
+
