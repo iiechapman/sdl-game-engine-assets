@@ -50086,7 +50086,7 @@
   <object name="Flame" type="Enemy" gid="95" x="1724" y="767"/>
   <object name="Flame" type="Enemy" gid="192" x="1793" y="803"/>
   <object name="Crystal" type="Enemy" gid="1073741919" x="2014" y="671"/>
-  <object name="Apple" type="Enemy" gid="695" x="1548" y="739"/>
+  <object name="Apple" type="Enemy" gid="695" x="1683" y="765"/>
   <object name="Apple" type="Enemy" gid="695" x="1136" y="611"/>
   <object name="Apple" type="Enemy" gid="695" x="1915" y="797"/>
   <object name="Apple" type="Enemy" gid="695" x="1970" y="799"/>
@@ -50111,7 +50111,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="light">
+ <objectgroup name="light" visible="0">
   <object name="Light" type="Light" gid="90" x="824.609" y="452.606" width="10" height="18" rotation="-0.855763">
    <properties>
     <property name="alpha" value="220"/>
