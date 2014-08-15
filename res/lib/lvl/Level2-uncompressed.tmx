@@ -20925,7 +20925,7 @@
    <tile gid="55"/>
    <tile gid="55"/>
    <tile gid="2"/>
-   <tile gid="0"/>
+   <tile gid="526"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -22314,8 +22314,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="506"/>
+   <tile gid="507"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -22413,9 +22413,9 @@
    <tile gid="0"/>
    <tile gid="55"/>
    <tile gid="55"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="526"/>
+   <tile gid="523"/>
+   <tile gid="524"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -22537,8 +22537,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="506"/>
+   <tile gid="507"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -22632,13 +22632,13 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
+   <tile gid="526"/>
    <tile gid="0"/>
+   <tile gid="526"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="526"/>
+   <tile gid="523"/>
+   <tile gid="524"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -50111,7 +50111,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="light" visible="0">
+ <objectgroup name="light">
   <object name="Light" type="Light" gid="90" x="824.609" y="452.606" width="10" height="18" rotation="-0.855763">
    <properties>
     <property name="alpha" value="220"/>
@@ -50363,6 +50363,18 @@
     <property name="textureHeight" value="200"/>
     <property name="textureID" value="light"/>
     <property name="textureWidth" value="200"/>
+   </properties>
+  </object>
+  <object name="Light" type="Light" gid="90" x="1504" y="686">
+   <properties>
+    <property name="alpha" value="130"/>
+    <property name="blendMode" value="blend"/>
+    <property name="blue" value="255"/>
+    <property name="green" value="255"/>
+    <property name="red" value="255"/>
+    <property name="textureHeight" value="195"/>
+    <property name="textureID" value="light"/>
+    <property name="textureWidth" value="195"/>
    </properties>
   </object>
  </objectgroup>
