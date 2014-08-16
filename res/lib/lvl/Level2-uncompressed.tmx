@@ -11490,11 +11490,11 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="571"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="571"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
    <tile gid="592"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -11897,7 +11897,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="571"/>
+   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -11996,7 +11996,7 @@
    <tile gid="0"/>
    <tile gid="595"/>
    <tile gid="612"/>
-   <tile gid="571"/>
+   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -12199,7 +12199,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="592"/>
-   <tile gid="571"/>
+   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -20184,8 +20184,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -20284,8 +20284,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -20384,8 +20384,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -20484,8 +20484,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="452"/>
@@ -20584,8 +20584,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -20684,8 +20684,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -20784,8 +20784,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -20884,8 +20884,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -20984,8 +20984,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -21084,8 +21084,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -21184,8 +21184,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -21284,8 +21284,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -21384,8 +21384,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -21461,10 +21461,10 @@
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="18"/>
    <tile gid="20"/>
    <tile gid="0"/>
@@ -21484,8 +21484,8 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="55"/>
+   <tile gid="55"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
@@ -22198,7 +22198,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="55"/>
-   <tile gid="571"/>
+   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="526"/>
    <tile gid="523"/>
@@ -22632,9 +22632,9 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="526"/>
    <tile gid="0"/>
-   <tile gid="526"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="526"/>
    <tile gid="523"/>
@@ -50085,15 +50085,15 @@
  <objectgroup name="objects">
   <object name="Flame" type="Enemy" gid="95" x="1724" y="767"/>
   <object name="Flame" type="Enemy" gid="192" x="1793" y="803"/>
-  <object name="Crystal" type="Enemy" gid="1073741919" x="2014" y="671"/>
-  <object name="Apple" type="Enemy" gid="695" x="1683" y="765"/>
-  <object name="Apple" type="Enemy" gid="695" x="1136" y="611"/>
-  <object name="Apple" type="Enemy" gid="695" x="1915" y="797"/>
-  <object name="Apple" type="Enemy" gid="695" x="1970" y="799"/>
-  <object name="Apple" type="Enemy" gid="695" x="2037" y="800"/>
-  <object name="Apple" type="Enemy" gid="695" x="2440" y="803"/>
-  <object name="Apple" type="Enemy" gid="695" x="2236" y="580"/>
-  <object name="Apple" type="Enemy" gid="695" x="2031" y="387"/>
+  <object name="Crystal" type="Item" gid="1073741919" x="2014" y="673"/>
+  <object name="Apple" type="Item" gid="695" x="1683" y="765"/>
+  <object name="Apple" type="Item" gid="695" x="1136" y="611"/>
+  <object name="Apple" type="Item" gid="695" x="1915" y="797"/>
+  <object name="Apple" type="Item" gid="695" x="1970" y="799"/>
+  <object name="Apple" type="Item" gid="695" x="2037" y="800"/>
+  <object name="Apple" type="Item" gid="695" x="2440" y="803"/>
+  <object name="Apple" type="Item" gid="695" x="2236" y="580"/>
+  <object name="Apple" type="Item" gid="695" x="2031" y="387"/>
  </objectgroup>
  <objectgroup name="player">
   <object name="Player" type="Player" gid="86" x="805" y="445">
@@ -50110,6 +50110,9 @@
     <property name="textureWidth" value="32"/>
    </properties>
   </object>
+ </objectgroup>
+ <objectgroup name="objects">
+  <object name="Blob" type="Enemy" gid="571" x="2127" y="800"/>
  </objectgroup>
  <objectgroup name="light">
   <object name="Light" type="Light" gid="90" x="824.609" y="452.606" width="10" height="18" rotation="-0.855763">
@@ -50353,7 +50356,7 @@
     <property name="textureWidth" value="195"/>
    </properties>
   </object>
-  <object name="Light" type="Light" gid="90" x="2039" y="670">
+  <object name="Light" type="Light" gid="90" x="2018" y="669">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="blend"/>
@@ -50379,7 +50382,7 @@
   </object>
  </objectgroup>
  <objectgroup name="hud">
-  <object name="HUD" type="Enemy" gid="91" x="3" y="3">
+  <object name="HUD" type="Item" gid="91" x="3" y="3">
    <properties>
     <property name="alpha" value="255"/>
     <property name="blendMode" value="blend"/>
