@@ -130,11 +130,6 @@ Seek =  Player
 
 
 
-
-
-
-
-
 <element name ="Light" type="Light" textureID="light"
             width="195" height="195" row ="1" frame ="0" numFrames="1"
             animSpeed="0" effectID="hurt_player"

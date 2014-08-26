@@ -50113,6 +50113,12 @@
  </objectgroup>
  <objectgroup name="objects">
   <object name="Blob" type="Enemy" gid="571" x="2127" y="800"/>
+  <object name="Blob" type="Enemy" gid="571" x="1547" y="671"/>
+  <object name="Blob" type="Enemy" gid="571" x="1320" y="671"/>
+  <object name="Blob" type="Enemy" gid="571" x="1380" y="447"/>
+  <object name="Blob" type="Enemy" gid="571" x="1199" y="350"/>
+  <object name="Blob" type="Enemy" gid="571" x="2264" y="576"/>
+  <object name="Blob" type="Enemy" gid="571" x="672" y="670"/>
  </objectgroup>
  <objectgroup name="light">
   <object name="Light" type="Light" gid="90" x="824.609" y="452.606" width="10" height="18" rotation="-0.855763">
