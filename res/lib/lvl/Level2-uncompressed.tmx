@@ -1499,9 +1499,9 @@
    <tile gid="419"/>
    <tile gid="419"/>
    <tile gid="419"/>
-   <tile gid="419"/>
-   <tile gid="419"/>
-   <tile gid="419"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
    <tile gid="419"/>
    <tile gid="19"/>
    <tile gid="19"/>
@@ -50082,10 +50082,10 @@
    <tile gid="0"/>
   </data>
  </layer>
- <objectgroup name="objects">
+ <objectgroup name="objects" width="0" height="0">
   <object name="Flame" type="Enemy" gid="95" x="1724" y="767"/>
   <object name="Flame" type="Enemy" gid="192" x="1793" y="803"/>
-  <object name="Crystal" type="Item" gid="1073741919" x="2014" y="673"/>
+  <object name="Crystal" type="Item" gid="95" x="2014" y="673"/>
   <object name="Apple" type="Item" gid="695" x="1683" y="765"/>
   <object name="Apple" type="Item" gid="695" x="1136" y="611"/>
   <object name="Apple" type="Item" gid="695" x="1915" y="797"/>
@@ -50095,7 +50095,7 @@
   <object name="Apple" type="Item" gid="695" x="2236" y="580"/>
   <object name="Apple" type="Item" gid="695" x="2031" y="387"/>
  </objectgroup>
- <objectgroup name="player">
+ <objectgroup name="player" width="0" height="0">
   <object name="Player" type="Player" gid="86" x="805" y="445">
    <properties>
     <property name="alpha" value="255"/>
@@ -50111,7 +50111,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="objects">
+ <objectgroup name="objects" width="0" height="0">
   <object name="Blob" type="Enemy" gid="571" x="2127" y="800"/>
   <object name="Blob" type="Enemy" gid="571" x="1547" y="671"/>
   <object name="Blob" type="Enemy" gid="571" x="1320" y="671"/>
@@ -50120,8 +50120,8 @@
   <object name="Blob" type="Enemy" gid="571" x="2264" y="576"/>
   <object name="Blob" type="Enemy" gid="571" x="672" y="670"/>
  </objectgroup>
- <objectgroup name="light">
-  <object name="Light" type="Light" gid="90" x="824.609" y="452.606" width="10" height="18" rotation="-0.855763">
+ <objectgroup name="light" width="0" height="0">
+  <object name="Light" type="Light" gid="90" x="0" y="0" width="10" height="18">
    <properties>
     <property name="alpha" value="220"/>
     <property name="blendMode" value="add"/>
@@ -50387,7 +50387,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="hud">
+ <objectgroup name="hud" width="0" height="0">
   <object name="HUD" type="Item" gid="91" x="3" y="3">
    <properties>
     <property name="alpha" value="255"/>
