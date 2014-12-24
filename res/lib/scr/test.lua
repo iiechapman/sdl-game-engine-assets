@@ -4,12 +4,13 @@
 
 appPath = "../../../SDLGameEngine.app"
 
---Upon Load 
+--Upon Load
 os.execute("open " .. appPath)
 
 function greet()
-	-- Greets the user 
+	-- Greets the user
 	print("Hello lua")
+
 end
 
 
